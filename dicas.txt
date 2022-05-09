@@ -1,0 +1,292 @@
+
+
+
+15 Atalhos do VS Code para Aumentar sua Produtividade
+Vinicius Mattos
+Vinicius Mattos
+03/09/2021 14:22
+
+VS Code é um dos editores mais populares para desenvolvimento web. Ao escrever código, geralmente exigimos certas ações de formatação, e muitas delas são suportadas pelo próprio VS Code. Embora a maioria das ações possa ser encontrada nas opções do Menu, ter atalhos de teclado práticos pode ajudar a melhorar muito a velocidade de codificação.
+
+Aqui está uma lista de alguns atalhos que venho usando há algum tempo e que achei muito úteis.
+
+
+1. Abrir a paleta para pesquisar um arquivo
+
+Mac: CMD + P
+
+Windows / Linux: CTRL + P
+
+Navegar pelos arquivos é uma das opções mais comuns e este comando pode ser muito útil. Você pode digitar o nome do arquivo na caixa de pesquisa e selecionar o arquivo clicando ou pressionando Enter no resultado da pesquisa para abrir o arquivo
+
+
+2. Adicionar cursores a todas as seleções correspondentes
+
+Mac: CMD + SHIFT + L
+
+Windows / Linux: CTRL + SHIFT + L
+
+Um dos meus recursos favoritos do VS Code são os vários cursores. Eles permitem que você substitua o texto ou acrescente mais texto sem copiar e colar ou exigir que você altere um de cada vez.
+
+Usando este comando, você pode adicionar cursores a todas as seleções correspondentes no documento
+
+
+3. Adicionar o cursor à próxima seleção correspondente
+
+Mac: CMD + D
+
+Windows / Linux: CTRL + D
+
+Como o comando acima, ele também é usado para adicionar cursores, mas com isso, você pode adicionar o cursor à próxima seleção correspondente. Isso é muito útil quando você não deseja selecionar todas as ocorrências juntas
+
+
+4. Desfazer a última operação do cursor
+
+Mac: CMD + U
+
+Windows / Linux: CTRL + U
+
+Se você precisar desfazer a seleção do cursor em um caso onde você selecionou mais cursores do que o necessário ou redefinir o cursor para uma posição anterior, você pode usar este comando para desfazer a última ação do cursor
+
+
+5. Selecionar a linha atual
+
+Mac: CMD + L
+
+Windows / Linux: CTRL + L
+
+Muitas vezes usamos o arrasto do mouse para selecionar o texto, mas se quisermos selecionar linhas inteiras, podemos usar este comando
+
+
+6. Ir para uma linha específica
+
+Mac: CTRL + G
+
+Windows / Linux: CTRL + G
+
+Podemos navegar para uma linha específica do documento usando este comando simples e digitando o número da linha.
+
+Isso é muito útil em situações em que os rastreamentos de pilha de erros fornecem o número da linha do arquivo e nosso arquivo é grande.
+
+
+7. Fechar todas as guias abertas do editor
+
+Mac: CMD + K + W
+
+Windows / Linux: CTRL + K + W
+
+Este comando é útil quando queremos limpar todas as guias.
+
+Freqüentemente, durante a depuração ou desenvolvimento, abri muitas guias e quando quero mudar o contexto ou começar do zero, este comando é muito útil
+
+
+8. Alternar comentário de bloco
+
+Mac: SHIFT + OPTION + A
+
+Windows: SHIFT + ALT + A, Linux: CTRL + SHIFT + A
+
+Este atalho também nos permite adicionar um novo comentário de bloco ou alternar os existentes.
+
+Incluímos um trecho de código Javascript com / * * / para adicionar um comentário de bloqueio. No entanto, com este atalho, podemos adicionar ou remover um comentário de bloco para o bloco de código selecionado ou adicionar novos.
+
+Comentários de linha podem ser alternados com CMD + / (Windows / Linux: CTRL + /)
+
+
+9. Dobrar o bloco de código
+
+Mac: CMD + OPTION + [
+
+Windows / Linux: CTRL + SHIFT + [
+
+Este comando é especialmente útil quando queremos nos concentrar em uma área específica do código e, portanto, ignorar alguns blocos de código. Isso dobra o bloco mais próximo do cursor.
+
+Você pode desdobrar o bloco de código com CMD + OPTION +] (ou Windows / Linux: CTRL + SHIFT +])
+
+
+10. Mover a linha para cima ou para baixo
+
+Mac: OPÇÃO + PARA CIMA / PARA BAIXO
+
+Windows / Linux: ALT + PARA CIMA / PARA BAIXO
+
+Quando você deseja mover um pedaço de código, por exemplo, uma declaração de variável para cima ou para baixo, você corta e cola no local apropriado, mas se o reajuste for para algumas linhas, você pode usar este comando para mover a linha atual / seleção para cima ou para baixo
+
+
+11. Abrir o terminal integrado
+
+Mac: CTRL + `
+
+Windows / Linux: CTRL + `
+
+Um dos recursos mais incríveis do VS Code é que ele suporta um terminal integrado que você pode usar como um terminal normal e para executar código ou realizar outras operações. Este comando ajuda você a abrir o terminal quando você precisar dele
+
+
+12. Dividir a visualização do editor
+
+Mac: CMD + \
+
+Windows / Linux: CTRL + \
+
+Você pode dividir a visualização do editor para abrir vários arquivos juntos.
+
+Isso é especialmente útil quando você deseja consultar o conteúdo de um arquivo enquanto codifica em outro.
+
+
+13. Formatar documento
+
+Mac: SHIFT + OPTION + F
+
+Windows: SHIFT + ALT + F, Linux: CTRL + SHIFT + I
+
+Freqüentemente, temos extensões habilitadas ou configurações definidas para formatar documentos ao salvar, mas às vezes gostamos de controlar quando queremos formatar o documento. É aqui que entra esse comando.
+
+Ele nos permite formatar o documento atual de acordo com as configurações definidas.
+
+
+14. Duplicar seleção para cima ou para baixo
+
+Mac: OPÇÃO + SHIFT + PARA CIMA / PARA BAIXO
+
+Windows / Linux: SHIFT + ALT + PARA CIMA / PARA BAIXO
+
+Usando este comando, você pode duplicar o código selecionado acima ou abaixo do código atual.
+
+Adoro usar isso quando algumas funções são quase idênticas, exceto por algumas pequenas alterações que faço depois de duplicar a implementação anterior
+
+
+15. Alternar barra lateral
+
+Mac: CMD + B
+
+Windows / Linux: CTRL + B
+
+Você pode usar este comando para alternar a barra lateral para liberar mais espaço para a visualização do arquivo como e quando necessário.
+
+
+Cereja no bolo
+
+Ao digitar o comando code . podemos abrir o VSCode a partir do terminal
+
+Embora não seja um atalho de teclado, é extremamente útil quando você está trabalhando
+
+
+
+
+
+
+import RNFS from "react-native-fs";
+    const rootPath = RNFS.DocumentDirectoryPath;
+    readFile = async () => {
+            const path = rootPath + "/rn.txt";
+            var content = await RNFS.readFile(path, "utf8");
+            return content;
+          };
+
+render() {
+    return (
+      <View style={styles.container}>
+      <Text>{JSON.stringify(this.readFile())}</Text>
+      </View>
+    );
+  }
+
+
+  {"_40":0,"_65":0,"_55":null,"_72":null}
+
+
+readFile = async (MyPath) => {
+        try {
+          const path =MyPath+ "/rn.txt";
+          const contents = await RNFS.readFile(path, "utf8");
+          return("" + contents);
+        } catch (e) {
+          alert("" + e);
+        }
+      };
+
+     <Button title="AppFilesDir" onPress={() => this.readFile(RNFS.ExternalDirectoryPath)} />
+     <Button title="InternalStorageDir" onPress={() => this.readFile(RNFS.ExternalStorageDirectoryPath)} />
+
+
+
+     https://dev-yakuza.posstree.com/en/react-native/react-native-fs/
+
+ler pasta
+...
+// typescript style
+import * as RNFS from 'react-native-fs';
+...
+
+//readDir(dirpath: string)
+RNFS.readDir(RNFS.DocumentDirectoryPath).then(files => {
+    ...
+})
+.catch(err => {
+    ...
+    console.log(err.message, err.code);
+    ...
+});
+...
+
+
+ler arquivo
+...
+// typescript style
+import * as RNFS from 'react-native-fs';
+...
+
+// readFile(filepath: string, encoding?: string)
+RNFS.readFile(filePath, 'ascii').then(res => {
+    ...
+})
+.catch(err => {
+    ...
+    console.log(err.message, err.code);
+    ...
+});
+...
+
+
+salvar arquivo
+...
+// typescript style
+import * as RNFS from 'react-native-fs';
+...
+
+// writeFile(filepath: string, contents: string, encoding?: string)
+RNFS.writeFile(savePath, contents, 'ascii').then(res => {
+    ...
+})
+.catch(err => {
+    ...
+    console.log(err.message, err.code);
+    ...
+});
+...
+
+
+import React from "react";
+
+export default function App() {
+  const showFile = (e) => {
+    e.preventDefault();
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      const text = e.target.result;
+      console.log(text);
+    };
+    reader.readAsText(e.target.files[0]);
+  };
+
+  return (
+    <div>
+      <input type="file" onChange={showFile} />
+    </div>
+  );
+}
+
+
+https://docs.expo.dev/versions/latest/sdk/filesystem/
+
+https://stackoverflow.com/questions/51172035/how-to-open-a-text-file-and-read-the-contents-from-it-on-react-native

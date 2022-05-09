@@ -1,0 +1,2374 @@
+{
+  "data": {
+    "Labs": {
+      "Name": "Labs",
+      "Bash": { "Faction": "Ventkids", "Name": "Ventkid Bash Lab" },
+      "Railjack": { "Faction": "Tenno", "Name": "Dry Dock" },
+      "Tenno": { "Faction": "Tenno", "Name": "Tenno Lab" },
+      "Infested": { "Faction": "Infested", "Name": "Bio Lab" },
+      "Orokin": { "Faction": "Orokin", "Name": "Orokin Lab" },
+      "Corpus": { "Faction": "Corpus", "Name": "Energy Lab" },
+      "Grineer": { "Faction": "Grineer", "Name": "Chem Lab" }
+    },
+    "Research": {
+      "Fieldron": {
+        "Lab": "Corpus",
+        "Credits": 5000,
+        "Image": "Fieldron.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 5, "Name": "Fieldron Sample" },
+          { "Count": 100, "Name": "Rubedo" },
+          { "Count": 500, "Name": "Nano Spores" },
+          { "Count": 200, "Name": "Polymer Bundle" }
+        ],
+        "Affinity": 2000
+      },
+      "Larkspur": {
+        "Lab": "Tenno",
+        "Credits": 5000,
+        "Image": "Larkspur.png",
+        "Time": 48,
+        "Resources": [
+          { "Count": 1, "Name": "Crisma Toroid" },
+          { "Count": 5, "Name": "Thermal Sludge" },
+          { "Count": 6, "Name": "Travocyte Alloy" },
+          { "Count": 6, "Name": "Axidrol Alloy" }
+        ],
+        "Affinity": 3000
+      },
+      "Squad Shield Restore (Medium)": {
+        "Prereq": "Fieldron",
+        "Lab": "Corpus",
+        "Credits": 5000,
+        "Image": "TeamShieldRestore.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 30, "Name": "Fieldron Sample" },
+          { "Count": 100, "Name": "Rubedo" },
+          { "Count": 500, "Name": "Nano Spores" },
+          { "Count": 200, "Name": "Polymer Bundle" }
+        ],
+        "Affinity": 3000
+      },
+      "Name": "Research",
+      "Bubonico": {
+        "Prereq": "Embolist",
+        "Lab": "Infested",
+        "Credits": 5000,
+        "Image": "Bubonico.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 35, "Name": "Mutagen Sample" },
+          { "Count": 8000, "Name": "Rubedo" },
+          { "Count": 22000, "Name": "Nano Spores" },
+          { "Count": 20, "Name": "Neurodes" }
+        ],
+        "Affinity": 3000
+      },
+      "Argonak": {
+        "Prereq": "Grinlok",
+        "Type": "Weapon",
+        "Credits": 5000,
+        "Resources": [
+          { "Count": 325, "Name": "Detonite Ampule" },
+          { "Count": 10, "Name": "Control Module" },
+          { "Count": 525, "Name": "Circuits" },
+          { "Count": 2000, "Name": "Salvage" }
+        ],
+        "Time": 72,
+        "Affinity": 3000,
+        "Lab": "Grineer"
+      },
+      "Ack & Brunt": {
+        "Prereq": "Ogris",
+        "Lab": "Grineer",
+        "Credits": 7500,
+        "Image": "RegorAxeShield.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 10, "Name": "Detonite Ampule" },
+          { "Count": 620, "Name": "Salvage" },
+          { "Count": 400, "Name": "Polymer Bundle" },
+          { "Count": 240, "Name": "Rubedo" }
+        ],
+        "Affinity": 3000
+      },
+      "Yareli Neuroptics": {
+        "Lab": "Bash",
+        "Credits": 10000,
+        "Image": "Helmet.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 1, "Name": "Detonite Injector" },
+          { "Count": 1, "Name": "Neurodes" },
+          { "Count": 500, "Name": "Rubedo" },
+          { "Count": 1000, "Name": "Alloy Plate" }
+        ],
+        "Affinity": 1500
+      },
+      "Itzal": {
+        "Lab": "Tenno",
+        "Credits": 10000,
+        "Image": "ArchwingSuitStealth.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 2, "Name": "Tellurium" },
+          { "Count": 1, "Name": "Detonite Injector" },
+          { "Count": 1, "Name": "Fieldron" },
+          { "Count": 1, "Name": "Mutagen Mass" }
+        ],
+        "Affinity": 3000
+      },
+      "Zephyr": {
+        "Lab": "Tenno",
+        "Credits": 5000,
+        "Image": "Zephyr.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 1, "Name": "Mutagen Mass" },
+          { "Count": 1, "Name": "Detonite Injector" },
+          { "Count": 1, "Name": "Fieldron" },
+          { "Count": 200, "Name": "Oxium" }
+        ],
+        "Affinity": 5000
+      },
+      "Nutrio Incubator Upgrade Segment": {
+        "Lab": "Tenno",
+        "Credits": 20000,
+        "Image": "IncubatorUpgradeSegment.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 2, "Name": "Tellurium" },
+          { "Count": 5000, "Name": "Polymer Bundle" },
+          { "Count": 800, "Name": "Cryotic" },
+          { "Count": 600, "Name": "Oxium" }
+        ],
+        "Affinity": 6000
+      },
+      "Sybaris": {
+        "Prereq": "Akstiletto",
+        "Lab": "Tenno",
+        "Credits": 5000,
+        "Image": "TnoLeverActionRifle.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 1, "Name": "Morphics" },
+          { "Count": 500, "Name": "Salvage" },
+          { "Count": 50, "Name": "Rubedo" },
+          { "Count": 300, "Name": "Polymer Bundle" }
+        ],
+        "Affinity": 3000
+      },
+      "Squad Energy Restore (Large) x 100": {
+        "Prereq": "Squad Energy Restore (Medium) x 10",
+        "Lab": "Corpus",
+        "Credits": 25000,
+        "Image": "SquadEnergyRestoreLargex100.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 550, "Name": "Fieldron Sample" },
+          { "Count": 6750, "Name": "Cubic Diodes" },
+          { "Count": 300, "Name": "Kesslers" },
+          { "Count": 5, "Name": "Fresnels" }
+        ],
+        "Affinity": 3000
+      },
+      "Gunsen": {
+        "Prereq": "Venka",
+        "Lab": "Tenno",
+        "Credits": 5000,
+        "Image": "WarfanWeapon.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 10, "Name": "Morphics" },
+          { "Count": 15500, "Name": "Salvage" },
+          { "Count": 11500, "Name": "Ferrite" },
+          { "Count": 1450, "Name": "Polymer Bundle" }
+        ],
+        "Affinity": 3000
+      },
+      "Elytron": {
+        "Lab": "Tenno",
+        "Credits": 10000,
+        "Image": "ArchwingSuitDemolition.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 2, "Name": "Gallium" },
+          { "Count": 1, "Name": "Detonite Injector" },
+          { "Count": 1, "Name": "Fieldron" },
+          { "Count": 1, "Name": "Mutagen Mass" }
+        ],
+        "Affinity": 3000
+      },
+      "Akstiletto": {
+        "Lab": "Tenno",
+        "Credits": 5000,
+        "Image": "TennoUzi.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 550, "Name": "Salvage" },
+          { "Count": 300, "Name": "Polymer Bundle" },
+          { "Count": 50, "Name": "Alloy Plate" },
+          { "Count": 1, "Name": "Gallium" }
+        ],
+        "Affinity": 3000
+      },
+      "Cycron": {
+        "Prereq": "Spectra",
+        "Lab": "Corpus",
+        "Credits": 7500,
+        "Image": "Cycron.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 90, "Name": "Fieldron Sample" },
+          { "Count": 500, "Name": "Circuits" },
+          { "Count": 15, "Name": "Gallium" },
+          { "Count": 15000, "Name": "Nano Spores" }
+        ],
+        "Affinity": 3000
+      },
+      "Nezha Systems": {
+        "Prereq": "Nezha",
+        "Lab": "Tenno",
+        "Credits": 10000,
+        "Image": "Systems.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 1, "Name": "Fieldron" },
+          { "Count": 1, "Name": "Gallium" },
+          { "Count": 1000, "Name": "Salvage" },
+          { "Count": 500, "Name": "Cryotic" }
+        ],
+        "Affinity": 1500
+      },
+      "Javlok": {
+        "Prereq": "Ignis",
+        "Lab": "Grineer",
+        "Credits": 5000,
+        "Image": "GrnFlameSpear.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 1000, "Name": "Detonite Ampule" },
+          { "Count": 4000, "Name": "Ferrite" },
+          { "Count": 500, "Name": "Polymer Bundle" },
+          { "Count": 2000, "Name": "Plastids" }
+        ],
+        "Affinity": 3000
+      },
+      "Squad Health Restore (Medium) x 10": {
+        "Prereq": "Squad Health Restore (Medium)",
+        "Lab": "Infested",
+        "Credits": 5000,
+        "Image": "HealthTotemMediumBundle.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 30, "Name": "Mutagen Sample" },
+          { "Count": 200, "Name": "Circuits" },
+          { "Count": 750, "Name": "Nano Spores" },
+          { "Count": 400, "Name": "Polymer Bundle" }
+        ],
+        "Affinity": 3000
+      },
+      "Nukor": {
+        "Prereq": "Detonite Injector",
+        "Lab": "Grineer",
+        "Credits": 5000,
+        "Image": "GrineerMicrowaveGun.png",
+        "Time": 84,
+        "Resources": [
+          { "Count": 10, "Name": "Detonite Ampule" },
+          { "Count": 550, "Name": "Salvage" },
+          { "Count": 2, "Name": "Morphics" },
+          { "Count": 115, "Name": "Rubedo" }
+        ],
+        "Affinity": 3000
+      },
+      "Amesha Harness": {
+        "Prereq": "Amesha",
+        "Lab": "Tenno",
+        "Credits": 10000,
+        "Image": "GenericArchwingWings.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 1, "Name": "Detonite Injector" },
+          { "Count": 6200, "Name": "Salvage" },
+          { "Count": 1250, "Name": "Cryotic" },
+          { "Count": 1, "Name": "Tellurium" }
+        ],
+        "Affinity": 1500
+      },
+      "Paracyst": {
+        "Prereq": "Mutalist Quanta",
+        "Lab": "Infested",
+        "Credits": 5000,
+        "Image": "InfQuantaRifle.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 30, "Name": "Mutagen Sample" },
+          { "Count": 400, "Name": "Circuits" },
+          { "Count": 4000, "Name": "Nano Spores" },
+          { "Count": 800, "Name": "Polymer Bundle" }
+        ],
+        "Affinity": 3000
+      },
+      "Ignis": {
+        "Prereq": "Detonite Injector",
+        "Lab": "Grineer",
+        "Credits": 5000,
+        "Image": "GrineerFlameThrower.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 10, "Name": "Detonite Ampule" },
+          { "Count": 400, "Name": "Ferrite" },
+          { "Count": 150, "Name": "Plastids" },
+          { "Count": 500, "Name": "Polymer Bundle" }
+        ],
+        "Affinity": 3000
+      },
+      "Squad Health Restore (Medium)": {
+        "Prereq": "Mutagen Mass",
+        "Lab": "Infested",
+        "Credits": 5000,
+        "Image": "TeamHealRestore.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 30, "Name": "Mutagen Sample" },
+          { "Count": 200, "Name": "Circuits" },
+          { "Count": 750, "Name": "Nano Spores" },
+          { "Count": 400, "Name": "Polymer Bundle" }
+        ],
+        "Affinity": 3000
+      },
+      "Wukong Neuroptics": {
+        "Prereq": "Wukong",
+        "Lab": "Tenno",
+        "Credits": 10000,
+        "Image": "Helmet.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 1, "Name": "Nitain Extract" },
+          { "Count": 1, "Name": "Neural Sensors" },
+          { "Count": 1000, "Name": "Nano Spores" },
+          { "Count": 500, "Name": "Polymer Bundle" }
+        ],
+        "Affinity": 1500
+      },
+      "Refract Stim": {
+        "Prereq": "Adrenal Stim",
+        "Lab": "Tenno",
+        "Credits": 100,
+        "Image": "RefractStim.png",
+        "Time": 1,
+        "Resources": [
+          { "Count": 3, "Name": "Synthula" },
+          { "Count": 10000, "Name": "Polymer Bundle" },
+          { "Count": 5000, "Name": "Rubedo" }
+        ],
+        "Affinity": 3000
+      },
+      "Squad Ammo Restore (Large) x 100": {
+        "Prereq": "Squad Ammo Restore (Medium) x 10",
+        "Lab": "Grineer",
+        "Credits": 25000,
+        "Image": "SquadAmmoRestoreLargex100.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 550, "Name": "Detonite Ampule" },
+          { "Count": 6750, "Name": "Carbides" },
+          { "Count": 300, "Name": "Gallos Rods" },
+          { "Count": 6, "Name": "Nullstones" }
+        ],
+        "Affinity": 3000
+      },
+      "Venka": {
+        "Prereq": "Sybaris",
+        "Lab": "Tenno",
+        "Credits": 5000,
+        "Image": "TennoClaws.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 2, "Name": "Gallium" },
+          { "Count": 400, "Name": "Salvage" },
+          { "Count": 75, "Name": "Plastids" },
+          { "Count": 600, "Name": "Polymer Bundle" }
+        ],
+        "Affinity": 3000
+      },
+      "Archwing Launcher Segment": {
+        "Lab": "Tenno",
+        "Credits": 20000,
+        "Image": "IncubatorUpgradeSegment.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 2, "Name": "Tellurium" },
+          { "Count": 5000, "Name": "Polymer Bundle" },
+          { "Count": 800, "Name": "Cryotic" },
+          { "Count": 600, "Name": "Oxium" }
+        ],
+        "Affinity": 6000
+      },
+      "Guandao": {
+        "Prereq": "Nami Skyla",
+        "Lab": "Tenno",
+        "Credits": 10000,
+        "Image": "Guandao.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 5, "Name": "Morphics" },
+          { "Count": 1250, "Name": "Plastids" },
+          { "Count": 2500, "Name": "Cryotic" },
+          { "Count": 4500, "Name": "Ferrite" }
+        ],
+        "Affinity": 3000
+      },
+      "Antiserum Injector": {
+        "Prereq": "Squad Energy Restore (Medium)",
+        "Lab": "Corpus",
+        "Credits": 5000,
+        "Image": "SyringeStandardFull.png",
+        "Time": 5,
+        "Resources": [
+          { "Count": 10, "Name": "Fieldron Sample" },
+          { "Count": 600, "Name": "Antiserum Injector Fragment" },
+          { "Count": 750, "Name": "Nano Spores" },
+          { "Count": 400, "Name": "Polymer Bundle" }
+        ],
+        "Affinity": 3000
+      },
+      "Cyanex": {
+        "Prereq": "Spectra",
+        "Lab": "Corpus",
+        "Credits": 7500,
+        "Image": "Cyanex.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 30, "Name": "Fieldron Sample" },
+          { "Count": 300, "Name": "Plastids" },
+          { "Count": 2250, "Name": "Salvage" },
+          { "Count": 10, "Name": "Control Module" }
+        ],
+        "Affinity": 3000
+      },
+      "Acrid": {
+        "Prereq": "Torid",
+        "Lab": "Infested",
+        "Credits": 7500,
+        "Image": "Acrid2.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 10, "Name": "Mutagen Sample" },
+          { "Count": 150, "Name": "Ferrite" },
+          { "Count": 1000, "Name": "Nano Spores" },
+          { "Count": 500, "Name": "Polymer Bundle" }
+        ],
+        "Affinity": 3000
+      },
+      "Serro": {
+        "Prereq": "Fieldron",
+        "Lab": "Corpus",
+        "Credits": 5000,
+        "Image": "Corpuspolearm.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 5, "Name": "Fieldron Sample" },
+          { "Count": 100, "Name": "Circuits" },
+          { "Count": 500, "Name": "Salvage" },
+          { "Count": 1, "Name": "Neural Sensors" }
+        ],
+        "Affinity": 3000
+      },
+      "Velocitus": {
+        "Lab": "Tenno",
+        "Credits": 5000,
+        "Image": "ArchRailgun.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 1, "Name": "Control Module" },
+          { "Count": 500, "Name": "Salvage" },
+          { "Count": 50, "Name": "Alloy Plate" },
+          { "Count": 250, "Name": "Polymer Bundle" }
+        ],
+        "Affinity": 3000
+      },
+      "Volt Chassis": {
+        "Prereq": "Volt",
+        "Lab": "Tenno",
+        "Credits": 10000,
+        "Image": "Chassis.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 1, "Name": "Mutagen Mass" },
+          { "Count": 1, "Name": "Control Module" },
+          { "Count": 1000, "Name": "Ferrite" },
+          { "Count": 500, "Name": "Rubedo" }
+        ],
+        "Affinity": 1500
+      },
+      "Wukong": {
+        "Lab": "Tenno",
+        "Credits": 5000,
+        "Image": "WukongIconNewLook.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 5, "Name": "Nitain Extract" },
+          { "Count": 25000, "Name": "Ferrite" },
+          { "Count": 9900, "Name": "Plastids" },
+          { "Count": 1, "Name": "Orokin Cell" }
+        ],
+        "Affinity": 5000
+      },
+      "Lanka": {
+        "Prereq": "Dera",
+        "Lab": "Corpus",
+        "Credits": 10000,
+        "Image": "Lanka2.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 10, "Name": "Fieldron Sample" },
+          { "Count": 500, "Name": "Ferrite" },
+          { "Count": 250, "Name": "Plastids" },
+          { "Count": 500, "Name": "Polymer Bundle" }
+        ],
+        "Affinity": 3000
+      },
+      "Grinlok": {
+        "Prereq": "Detonite Injector",
+        "Lab": "Grineer",
+        "Credits": 5000,
+        "Image": "DEGrinlok.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 10, "Name": "Detonite Ampule" },
+          { "Count": 500, "Name": "Polymer Bundle" },
+          { "Count": 400, "Name": "Ferrite" },
+          { "Count": 150, "Name": "Alloy Plate" }
+        ],
+        "Affinity": 3000
+      },
+      "Spectra": {
+        "Prereq": "Dera",
+        "Lab": "Corpus",
+        "Credits": 7500,
+        "Image": "Spectra.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 7, "Name": "Fieldron Sample" },
+          { "Count": 350, "Name": "Circuits" },
+          { "Count": 750, "Name": "Nano Spores" },
+          { "Count": 350, "Name": "Polymer Bundle" }
+        ],
+        "Affinity": 3000
+      },
+      "Dual Toxocyst": {
+        "Prereq": "Acrid",
+        "Lab": "Infested",
+        "Credits": 5000,
+        "Image": "InfVomitGun.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 20, "Name": "Mutagen Sample" },
+          { "Count": 200, "Name": "Circuits" },
+          { "Count": 750, "Name": "Nano Spores" },
+          { "Count": 400, "Name": "Cryotic" }
+        ],
+        "Affinity": 3000
+      },
+      "Zephyr Neuroptics": {
+        "Prereq": "Zephyr",
+        "Lab": "Tenno",
+        "Credits": 10000,
+        "Image": "Helmet.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 1, "Name": "Detonite Injector" },
+          { "Count": 1, "Name": "Neural Sensors" },
+          { "Count": 1000, "Name": "Nano Spores" },
+          { "Count": 20, "Name": "Oxium" }
+        ],
+        "Affinity": 1500
+      },
+      "Banshee Neuroptics": {
+        "Prereq": "Banshee",
+        "Lab": "Tenno",
+        "Credits": 10000,
+        "Image": "Helmet.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 1, "Name": "Detonite Injector" },
+          { "Count": 1, "Name": "Neural Sensors" },
+          { "Count": 1000, "Name": "Nano Spores" },
+          { "Count": 500, "Name": "Polymer Bundle" }
+        ],
+        "Affinity": 1500
+      },
+      "Banshee Chassis": {
+        "Prereq": "Banshee",
+        "Lab": "Tenno",
+        "Credits": 10000,
+        "Image": "Chassis.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 1, "Name": "Mutagen Mass" },
+          { "Count": 1, "Name": "Control Module" },
+          { "Count": 1000, "Name": "Ferrite" },
+          { "Count": 500, "Name": "Rubedo" }
+        ],
+        "Affinity": 1500
+      },
+      "Komorex": {
+        "Prereq": "Cyanex",
+        "Lab": "Corpus",
+        "Credits": 10000,
+        "Image": "Komorex.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 60, "Name": "Fieldron Sample" },
+          { "Count": 850, "Name": "Polymer Bundle" },
+          { "Count": 1300, "Name": "Alloy Plate" },
+          { "Count": 10, "Name": "Gallium" }
+        ],
+        "Affinity": 3000
+      },
+      "Synthula": {
+        "Lab": "Tenno",
+        "Credits": 100,
+        "Image": "Eventium.png",
+        "Time": 1,
+        "Resources": [
+          { "Count": 1000, "Name": "Polymer Bundle" },
+          { "Count": 3000, "Name": "Salvage" },
+          { "Count": 500, "Name": "Rubedo" },
+          { "Count": 1, "Name": "Vitus Essence" }
+        ],
+        "Affinity": 3000
+      },
+      "Pyrana": {
+        "Prereq": "Akstiletto",
+        "Lab": "Tenno",
+        "Credits": 5000,
+        "Image": "SawnOffShotgun.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 1, "Name": "Control Module" },
+          { "Count": 500, "Name": "Salvage" },
+          { "Count": 50, "Name": "Alloy Plate" },
+          { "Count": 300, "Name": "Polymer Bundle" }
+        ],
+        "Affinity": 3000
+      },
+      "Flux Rifle": {
+        "Prereq": "Dera",
+        "Lab": "Corpus",
+        "Credits": 7500,
+        "Image": "CorpusLaserRifle.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 7, "Name": "Fieldron Sample" },
+          { "Count": 350, "Name": "Circuits" },
+          { "Count": 750, "Name": "Nano Spores" },
+          { "Count": 350, "Name": "Polymer Bundle" }
+        ],
+        "Affinity": 3000
+      },
+      "Twin Krohkur": {
+        "Prereq": "Sydon",
+        "Type": "Weapon",
+        "Credits": 5000,
+        "Resources": [
+          { "Count": 200, "Name": "Detonite Ampule" },
+          { "Count": 4, "Name": "Gallium" },
+          { "Count": 3250, "Name": "Ferrite" },
+          { "Count": 300, "Name": "Oxium" }
+        ],
+        "Time": 72,
+        "Affinity": 3000,
+        "Lab": "Grineer"
+      },
+      "Volt": {
+        "Lab": "Tenno",
+        "Credits": 5000,
+        "Image": "Volt.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 1, "Name": "Mutagen Mass" },
+          { "Count": 1, "Name": "Detonite Injector" },
+          { "Count": 1, "Name": "Fieldron" },
+          { "Count": 1, "Name": "Orokin Cell" }
+        ],
+        "Affinity": 5000
+      },
+      "Dual Ichor": {
+        "Prereq": "Torid",
+        "Lab": "Infested",
+        "Credits": 5000,
+        "Image": "DualInfestedAxes.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 25, "Name": "Mutagen Sample" },
+          { "Count": 400, "Name": "Circuits" },
+          { "Count": 9000, "Name": "Nano Spores" },
+          { "Count": 800, "Name": "Polymer Bundle" }
+        ],
+        "Affinity": 3000
+      },
+      "Helios": {
+        "Prereq": "Lanka",
+        "Lab": "Corpus",
+        "Credits": 7500,
+        "Image": "PetCorpusMelee.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 7, "Name": "Fieldron Sample" },
+          { "Count": 100, "Name": "Oxium" },
+          { "Count": 750, "Name": "Ferrite" },
+          { "Count": 350, "Name": "Nano Spores" }
+        ],
+        "Affinity": 3000
+      },
+      "Nikana": {
+        "Prereq": "Akstiletto",
+        "Lab": "Tenno",
+        "Credits": 5000,
+        "Image": "Katana.png",
+        "Time": 48,
+        "Resources": [
+          { "Count": 1, "Name": "Argon Crystal" },
+          { "Count": 100, "Name": "Oxium" },
+          { "Count": 150, "Name": "Alloy Plate" },
+          { "Count": 300, "Name": "Polymer Bundle" }
+        ],
+        "Affinity": 3000
+      },
+      "Dera": {
+        "Prereq": "Prova",
+        "Lab": "Corpus",
+        "Credits": 7500,
+        "Image": "CorpusEnergyRifle.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 5, "Name": "Fieldron Sample" },
+          { "Count": 200, "Name": "Circuits" },
+          { "Count": 500, "Name": "Nano Spores" },
+          { "Count": 250, "Name": "Polymer Bundle" }
+        ],
+        "Affinity": 3000
+      },
+      "Marelok": {
+        "Prereq": "Detonite Injector",
+        "Lab": "Grineer",
+        "Credits": 5000,
+        "Image": "GrineerLeverActionPistol.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 10, "Name": "Detonite Ampule" },
+          { "Count": 300, "Name": "Polymer Bundle" },
+          { "Count": 650, "Name": "Salvage" },
+          { "Count": 120, "Name": "Alloy Plate" }
+        ],
+        "Affinity": 3000
+      },
+      "Gravimag": {
+        "Lab": "Tenno",
+        "Credits": 5000,
+        "Image": "Gravimag.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 1, "Name": "Gyromag Systems" },
+          { "Count": 1, "Name": "Atmo Systems" },
+          { "Count": 1, "Name": "Repeller Systems" }
+        ],
+        "Affinity": 5000
+      },
+      "Supra": {
+        "Prereq": "Prova",
+        "Lab": "Corpus",
+        "Credits": 10000,
+        "Image": "CorpusMachineGun.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 10, "Name": "Fieldron Sample" },
+          { "Count": 500, "Name": "Ferrite" },
+          { "Count": 250, "Name": "Plastids" },
+          { "Count": 500, "Name": "Polymer Bundle" }
+        ],
+        "Affinity": 3000
+      },
+      "Ignis Wraith": {
+        "Prereq": "Ignis",
+        "Lab": "Grineer",
+        "Credits": 5000,
+        "Image": "IgnisWraith.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 1000, "Name": "Detonite Ampule" },
+          { "Count": 4000, "Name": "Alloy Plate" },
+          { "Count": 2500, "Name": "Rubedo" },
+          { "Count": 2000, "Name": "Plastids" }
+        ],
+        "Affinity": 3000
+      },
+      "Itzal Wings": {
+        "Prereq": "Itzal",
+        "Lab": "Tenno",
+        "Credits": 10000,
+        "Image": "GenericArchwingHarness.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 1, "Name": "Tellurium" },
+          { "Count": 1, "Name": "Fieldron" },
+          { "Count": 3750, "Name": "Oxium" },
+          { "Count": 6400, "Name": "Ferrite" }
+        ],
+        "Affinity": 1500
+      },
+      "Volt Systems": {
+        "Prereq": "Volt",
+        "Lab": "Tenno",
+        "Credits": 10000,
+        "Image": "Systems.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 1, "Name": "Fieldron" },
+          { "Count": 1, "Name": "Morphics" },
+          { "Count": 1000, "Name": "Salvage" },
+          { "Count": 500, "Name": "Plastids" }
+        ],
+        "Affinity": 1500
+      },
+      "Amesha Wings": {
+        "Prereq": "Amesha",
+        "Lab": "Tenno",
+        "Credits": 10000,
+        "Image": "GenericArchwingHarness.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 1, "Name": "Fieldron" },
+          { "Count": 7250, "Name": "Ferrite" },
+          { "Count": 1350, "Name": "Plastids" },
+          { "Count": 1, "Name": "Tellurium" }
+        ],
+        "Affinity": 1500
+      },
+      "Squad Ammo Restore (Medium)": {
+        "Prereq": "Detonite Injector",
+        "Lab": "Grineer",
+        "Credits": 5000,
+        "Image": "TeamAmmoRestore.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 35, "Name": "Detonite Ampule" },
+          { "Count": 400, "Name": "Ferrite" },
+          { "Count": 300, "Name": "Plastids" },
+          { "Count": 600, "Name": "Polymer Bundle" }
+        ],
+        "Affinity": 3000
+      },
+      "Fluctus": {
+        "Lab": "Tenno",
+        "Credits": 10000,
+        "Image": "ArchRocketCrossbow.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 50, "Name": "Oxium" },
+          { "Count": 4, "Name": "Gallium" },
+          { "Count": 500, "Name": "Salvage" },
+          { "Count": 350, "Name": "Nano Spores" }
+        ],
+        "Affinity": 3000
+      },
+      "Torid": {
+        "Prereq": "Mutagen Mass",
+        "Lab": "Infested",
+        "Credits": 5000,
+        "Image": "GrineerGrenadeLauncher.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 10, "Name": "Mutagen Sample" },
+          { "Count": 200, "Name": "Circuits" },
+          { "Count": 750, "Name": "Nano Spores" },
+          { "Count": 400, "Name": "Polymer Bundle" }
+        ],
+        "Affinity": 3000
+      },
+      "Banshee": {
+        "Lab": "Tenno",
+        "Credits": 5000,
+        "Image": "Shee_Cropped.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 1, "Name": "Mutagen Mass" },
+          { "Count": 1, "Name": "Detonite Injector" },
+          { "Count": 1, "Name": "Fieldron" },
+          { "Count": 1, "Name": "Orokin Cell" }
+        ],
+        "Affinity": 5000
+      },
+      "Elytron Harness": {
+        "Prereq": "Elytron",
+        "Lab": "Tenno",
+        "Credits": 10000,
+        "Image": "GenericArchwingWings.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 1, "Name": "Detonite Injector" },
+          { "Count": 5650, "Name": "Nano Spores" },
+          { "Count": 4500, "Name": "Alloy Plate" },
+          { "Count": 1, "Name": "Tellurium" }
+        ],
+        "Affinity": 1500
+      },
+      "Squad Energy Restore (Medium)": {
+        "Prereq": "Fieldron",
+        "Lab": "Corpus",
+        "Credits": 5000,
+        "Image": "TeamEnergyRestore.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 25, "Name": "Fieldron Sample" },
+          { "Count": 80, "Name": "Rubedo" },
+          { "Count": 500, "Name": "Nano Spores" },
+          { "Count": 200, "Name": "Polymer Bundle" }
+        ],
+        "Affinity": 3000
+      },
+      "Pupacyst": {
+        "Prereq": "Embolist",
+        "Lab": "Infested",
+        "Credits": 5000,
+        "Image": "InfStaff.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 30, "Name": "Mutagen Sample" },
+          { "Count": 650, "Name": "Plastids" },
+          { "Count": 4500, "Name": "Nano Spores" },
+          { "Count": 3750, "Name": "Ferrite" }
+        ],
+        "Affinity": 3000
+      },
+      "Mutalist Quanta": {
+        "Prereq": "Embolist",
+        "Lab": "Infested",
+        "Credits": 5000,
+        "Image": "InfCrpShockSwarm.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 30, "Name": "Mutagen Sample" },
+          { "Count": 400, "Name": "Circuits" },
+          { "Count": 4000, "Name": "Nano Spores" },
+          { "Count": 800, "Name": "Ferrite" }
+        ],
+        "Affinity": 3000
+      },
+      "Landing Craft Foundry Segment": {
+        "Lab": "Tenno",
+        "Credits": 20000,
+        "Image": "FoundryVesselUpgradeFeatureItem.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 2, "Name": "Morphics" },
+          { "Count": 5000, "Name": "Polymer Bundle" },
+          { "Count": 1600, "Name": "Circuits" },
+          { "Count": 6000, "Name": "Salvage" }
+        ],
+        "Affinity": 6000
+      },
+      "Detonite Injector": {
+        "Lab": "Grineer",
+        "Credits": 5000,
+        "Image": "Detonite_Injector.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 5, "Name": "Detonite Ampule" },
+          { "Count": 200, "Name": "Ferrite" },
+          { "Count": 250, "Name": "Polymer Bundle" },
+          { "Count": 100, "Name": "Plastids" }
+        ],
+        "Affinity": 2000
+      },
+      "Ogris": {
+        "Prereq": "Ignis",
+        "Lab": "Grineer",
+        "Credits": 7500,
+        "Image": "OgrisNew.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 10, "Name": "Detonite Ampule" },
+          { "Count": 500, "Name": "Ferrite" },
+          { "Count": 150, "Name": "Plastids" },
+          { "Count": 300, "Name": "Polymer Bundle" }
+        ],
+        "Affinity": 3000
+      },
+      "Cerata": {
+        "Prereq": "Scoliac",
+        "Lab": "Infested",
+        "Credits": 5000,
+        "Image": "PunctureGlaive.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 25, "Name": "Mutagen Sample" },
+          { "Count": 600, "Name": "Plastids" },
+          { "Count": 1200, "Name": "Cryotic" },
+          { "Count": 800, "Name": "Polymer Bundle" }
+        ],
+        "Affinity": 3000
+      },
+      "Pox": {
+        "Prereq": "Dual Toxocyst",
+        "Lab": "Infested",
+        "Credits": 5000,
+        "Image": "InfProximityStars.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 20, "Name": "Mutagen Sample" },
+          { "Count": 200, "Name": "Plastids" },
+          { "Count": 900, "Name": "Nano Spores" },
+          { "Count": 250, "Name": "Rubedo" }
+        ],
+        "Affinity": 3000
+      },
+      "Infested Catalyst": {
+        "Lab": "Infested",
+        "Credits": 500,
+        "Image": "Infestedcatalyst.png",
+        "Time": 24,
+        "Resources": [
+          { "Count": 14, "Name": "Neurodes" },
+          { "Count": 21500, "Name": "Ferrite" },
+          { "Count": 19500, "Name": "Nano Spores" },
+          { "Count": 11500, "Name": "Plastids" }
+        ],
+        "Affinity": 2000
+      },
+      "Amprex": {
+        "Prereq": "Dera",
+        "Lab": "Corpus",
+        "Credits": 7500,
+        "Image": "ChainLightningGunEdit.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 15, "Name": "Fieldron Sample" },
+          { "Count": 350, "Name": "Plastids" },
+          { "Count": 750, "Name": "Nano Spores" },
+          { "Count": 350, "Name": "Polymer Bundle" }
+        ],
+        "Affinity": 3000
+      },
+      "Shaku": {
+        "Prereq": "Nami Skyla",
+        "Lab": "Tenno",
+        "Credits": 5000,
+        "Image": "TnoNunchaku.png",
+        "Time": 48,
+        "Resources": [
+          { "Count": 10, "Name": "Neurodes" },
+          { "Count": 17500, "Name": "Ferrite" },
+          { "Count": 5000, "Name": "Plastids" },
+          { "Count": 11000, "Name": "Polymer Bundle" }
+        ],
+        "Affinity": 3000
+      },
+      "Convectrix": {
+        "Prereq": "Lanka",
+        "Lab": "Corpus",
+        "Credits": 10000,
+        "Image": "CrpSplitRifle.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 20, "Name": "Fieldron Sample" },
+          { "Count": 1300, "Name": "Nano Spores" },
+          { "Count": 450, "Name": "Circuits" },
+          { "Count": 12, "Name": "Gallium" }
+        ],
+        "Affinity": 3000
+      },
+      "Squad Energy Restore (Medium) x 10": {
+        "Prereq": "Squad Energy Restore (Medium)",
+        "Lab": "Corpus",
+        "Credits": 5000,
+        "Image": "EnergyTotemMediumBundle.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 25, "Name": "Fieldron Sample" },
+          { "Count": 80, "Name": "Rubedo" },
+          { "Count": 500, "Name": "Nano Spores" },
+          { "Count": 200, "Name": "Polymer Bundle" }
+        ],
+        "Affinity": 3000
+      },
+      "Arca Scisco": {
+        "Prereq": "Spectra",
+        "Lab": "Corpus",
+        "Credits": 7500,
+        "Image": "CrpScopePistol.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 200, "Name": "Fieldron Sample" },
+          { "Count": 3000, "Name": "Rubedo" },
+          { "Count": 12750, "Name": "Alloy Plate" },
+          { "Count": 15, "Name": "Control Module" }
+        ],
+        "Affinity": 3000
+      },
+      "Buzlok": {
+        "Prereq": "Detonite Injector",
+        "Lab": "Grineer",
+        "Credits": 5000,
+        "Image": "GrnGorgSniperRifle.png",
+        "Time": 60,
+        "Resources": [
+          { "Count": 10, "Name": "Detonite Ampule" },
+          { "Count": 500, "Name": "Salvage" },
+          { "Count": 150, "Name": "Circuits" },
+          { "Count": 10, "Name": "Control Module" }
+        ],
+        "Affinity": 3000
+      },
+      "Scourge": {
+        "Prereq": "Tonbo",
+        "Lab": "Tenno",
+        "Credits": 10000,
+        "Image": "Scourge.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 3, "Name": "Morphics" },
+          { "Count": 4500, "Name": "Oxium" },
+          { "Count": 7250, "Name": "Ferrite" },
+          { "Count": 9750, "Name": "Salvage" }
+        ],
+        "Affinity": 3000
+      },
+      "Castanas": {
+        "Lab": "Tenno",
+        "Credits": 5000,
+        "Image": "TaserStar.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 1, "Name": "Control Module" },
+          { "Count": 500, "Name": "Salvage" },
+          { "Count": 50, "Name": "Circuits" },
+          { "Count": 300, "Name": "Ferrite" }
+        ],
+        "Affinity": 3000
+      },
+      "Nezha": {
+        "Lab": "Tenno",
+        "Credits": 5000,
+        "Image": "NezhaIconNewLook.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 1, "Name": "Mutagen Mass" },
+          { "Count": 1, "Name": "Detonite Injector" },
+          { "Count": 1, "Name": "Fieldron" },
+          { "Count": 1, "Name": "Orokin Cell" }
+        ],
+        "Affinity": 5000
+      },
+      "Glaxion": {
+        "Prereq": "Amprex",
+        "Lab": "Corpus",
+        "Credits": 5000,
+        "Image": "CrpFreezeRayRifle.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 5, "Name": "Fieldron Sample" },
+          { "Count": 100, "Name": "Circuits" },
+          { "Count": 2500, "Name": "Cryotic" },
+          { "Count": 1, "Name": "Gallium" }
+        ],
+        "Affinity": 3000
+      },
+      "Adrenal Stim": {
+        "Prereq": "Calcifin Stim",
+        "Lab": "Tenno",
+        "Credits": 100,
+        "Image": "AdrenalStim.png",
+        "Time": 1,
+        "Resources": [
+          { "Count": 3, "Name": "Synthula" },
+          { "Count": 10000, "Name": "Polymer Bundle" },
+          { "Count": 5000, "Name": "Rubedo" }
+        ],
+        "Affinity": 3000
+      },
+      "Lacera": {
+        "Prereq": "Nami Skyla",
+        "Lab": "Tenno",
+        "Credits": 5000,
+        "Image": "StalkerMios.png",
+        "Time": 48,
+        "Resources": [
+          { "Count": 1, "Name": "Morphics" },
+          { "Count": 600, "Name": "Ferrite" },
+          { "Count": 80, "Name": "Rubedo" },
+          { "Count": 450, "Name": "Polymer Bundle" }
+        ],
+        "Affinity": 3000
+      },
+      "Veldt": {
+        "Prereq": "Sybaris",
+        "Lab": "Tenno",
+        "Credits": 5000,
+        "Image": "Veldt.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 2, "Name": "Gallium" },
+          { "Count": 10500, "Name": "Alloy Plate" },
+          { "Count": 12000, "Name": "Salvage" },
+          { "Count": 2500, "Name": "Rubedo" }
+        ],
+        "Affinity": 3000
+      },
+      "Squad Health Restore (Large) x 100": {
+        "Prereq": "Squad Health Restore (Medium) x 10",
+        "Lab": "Infested",
+        "Credits": 25000,
+        "Image": "SquadHealthRestoreLargex100.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 550, "Name": "Mutagen Sample" },
+          { "Count": 6750, "Name": "Pustrels" },
+          { "Count": 300, "Name": "Trachons" },
+          { "Count": 6, "Name": "Bracoid" }
+        ],
+        "Affinity": 3000
+      },
+      "Mios": {
+        "Prereq": "Scoliac",
+        "Lab": "Infested",
+        "Credits": 5000,
+        "Image": "DEMios.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 30, "Name": "Mutagen Sample" },
+          { "Count": 400, "Name": "Plastids" },
+          { "Count": 9000, "Name": "Nano Spores" },
+          { "Count": 800, "Name": "Polymer Bundle" }
+        ],
+        "Affinity": 3000
+      },
+      "Apoc Mk III": {
+        "Prereq": "Apoc Mk II",
+        "Lab": "Railjack",
+        "Image": "TurretApoc.png",
+        "Time": 72,
+        "Credits": 10000,
+        "Resources": [
+          { "Count": 1, "Name": "Control Module" },
+          { "Count": 2846, "Name": "Polymer Bundle" },
+          { "Count": 8138, "Name": "Ferrite" },
+          { "Count": 5157, "Name": "Salvage" }
+        ]
+      },
+      "Synapse": {
+        "Prereq": "Embolist",
+        "Lab": "Infested",
+        "Credits": 5000,
+        "Image": "U10InfPrimary.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 65, "Name": "Mutagen Sample" },
+          { "Count": 800, "Name": "Circuits" },
+          { "Count": 3000, "Name": "Nano Spores" },
+          { "Count": 1200, "Name": "Polymer Bundle" }
+        ],
+        "Affinity": 3000
+      },
+      "Mutagen Mass": {
+        "Lab": "Infested",
+        "Credits": 5000,
+        "Image": "Mutagen Mass.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 5, "Name": "Mutagen Sample" },
+          { "Count": 150, "Name": "Circuits" },
+          { "Count": 500, "Name": "Nano Spores" },
+          { "Count": 100, "Name": "Plastids" }
+        ],
+        "Affinity": 2000
+      },
+      "Solar Rail Tower Class": {
+        "Lab": "Orokin",
+        "Credits": 10000,
+        "Image": "BasicSolarRail.png",
+        "Time": 24,
+        "Resources": [
+          { "Count": 500, "Name": "Alloy Plate" },
+          { "Count": 600, "Name": "Circuits" },
+          { "Count": 750, "Name": "Ferrite" },
+          { "Count": 1, "Name": "Forma" }
+        ],
+        "Affinity": 5000
+      },
+      "Apoc Mk I": {
+        "Lab": "Railjack",
+        "Image": "TurretApoc.png",
+        "Time": 72,
+        "Credits": 10000,
+        "Resources": [
+          { "Count": 1, "Name": "Morphics" },
+          { "Count": 2159, "Name": "Circuits" },
+          { "Count": 4750, "Name": "Nano Spores" },
+          { "Count": 2894, "Name": "Salvage" }
+        ]
+      },
+      "Hema": {
+        "Prereq": "Torid",
+        "Lab": "Infested",
+        "Credits": 5000,
+        "Image": "InfestedBurstRifle.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 5000, "Name": "Mutagen Sample" },
+          { "Count": 10000, "Name": "Plastids" },
+          { "Count": 45000, "Name": "Nano Spores" },
+          { "Count": 50, "Name": "Neurodes" }
+        ],
+        "Affinity": 10000
+      },
+      "Elytron Systems": {
+        "Prereq": "Elytron",
+        "Lab": "Tenno",
+        "Credits": 10000,
+        "Image": "GenericArchwingSystems.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 1, "Name": "Mutagen Mass" },
+          { "Count": 6200, "Name": "Alloy Plate" },
+          { "Count": 1150, "Name": "Plastids" },
+          { "Count": 1, "Name": "Tellurium" }
+        ],
+        "Affinity": 1500
+      },
+      "Cosmic Specter Regiment": {
+        "Prereq": "Force Specter Regiment",
+        "Lab": "Orokin",
+        "Credits": 20000,
+        "Image": "SpecterArmyPlatinum.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 500, "Name": "Alloy Plate" },
+          { "Count": 6000, "Name": "Nano Spores" },
+          { "Count": 750, "Name": "Polymer Bundle" },
+          { "Count": 1, "Name": "Argon Crystal" }
+        ],
+        "Affinity": 3000
+      },
+      "Scoliac": {
+        "Prereq": "Torid",
+        "Lab": "Infested",
+        "Resources": [
+          { "Count": 25, "Name": "Mutagen Sample" },
+          { "Count": 400, "Name": "Plastids" },
+          { "Count": 9000, "Name": "Nano Spores" },
+          { "Count": 800, "Name": "Polymer Bundle" }
+        ],
+        "Time": 72,
+        "Credits": 5000,
+        "Affinity": 3000
+      },
+      "Force Specter Regiment": {
+        "Prereq": "Phase Specter Regiment",
+        "Lab": "Orokin",
+        "Credits": 15000,
+        "Image": "SpecterArmyGold.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 500, "Name": "Alloy Plate" },
+          { "Count": 600, "Name": "Circuits" },
+          { "Count": 750, "Name": "Ferrite" },
+          { "Count": 1, "Name": "Forma" }
+        ],
+        "Affinity": 3000
+      },
+      "Itzal Systems": {
+        "Prereq": "Itzal",
+        "Lab": "Tenno",
+        "Credits": 10000,
+        "Image": "GenericArchwingSystems.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 1, "Name": "Tellurium" },
+          { "Count": 1, "Name": "Mutagen Mass" },
+          { "Count": 72500, "Name": "Salvage" },
+          { "Count": 3750, "Name": "Oxium" }
+        ],
+        "Affinity": 1500
+      },
+      "Wukong Chassis": {
+        "Prereq": "Wukong",
+        "Lab": "Tenno",
+        "Credits": 10000,
+        "Image": "Chassis.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 3, "Name": "Nitain Extract" },
+          { "Count": 1, "Name": "Control Module" },
+          { "Count": 1000, "Name": "Ferrite" },
+          { "Count": 500, "Name": "Rubedo" }
+        ],
+        "Affinity": 1500
+      },
+      "Falcor": {
+        "Prereq": "Prova",
+        "Lab": "Corpus",
+        "Credits": 5000,
+        "Image": "CrpGlaive.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 550, "Name": "Fieldron Sample" },
+          { "Count": 325, "Name": "Circuits" },
+          { "Count": 1750, "Name": "Alloy Plate" },
+          { "Count": 800, "Name": "Polymer Bundle" }
+        ],
+        "Affinity": 3000
+      },
+      "Dark Split-Sword (Dual Swords)": {
+        "Prereq": "Nami Skyla",
+        "Lab": "Tenno",
+        "Credits": 10000,
+        "Image": "DarkSwordDaggerHybrid.png",
+        "Time": 48,
+        "Resources": [
+          { "Count": 1, "Name": "Tellurium" },
+          { "Count": 800, "Name": "Alloy Plate" },
+          { "Count": 62, "Name": "Rubedo" },
+          { "Count": 20, "Name": "Mutagen Sample" }
+        ],
+        "Affinity": 3000
+      },
+      "Vapor Specter Regiment": {
+        "Lab": "Orokin",
+        "Credits": 10000,
+        "Image": "SpecterArmyBronze.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 5000, "Name": "Salvage" },
+          { "Count": 5000, "Name": "Nano Spores" },
+          { "Count": 5000, "Name": "Ferrite" },
+          { "Count": 1, "Name": "Forma" }
+        ],
+        "Affinity": 3000
+      },
+      "Apoc Mk II": {
+        "Prereq": "Apoc Mk I",
+        "Lab": "Railjack",
+        "Image": "TurretApoc.png",
+        "Time": 72,
+        "Credits": 10000,
+        "Resources": [
+          { "Count": 1, "Name": "Gallium" },
+          { "Count": 2622, "Name": "Rubedo" },
+          { "Count": 6510, "Name": "Alloy Plate" },
+          { "Count": 5500, "Name": "Nano Spores" }
+        ]
+      },
+      "Cassowar": {
+        "Prereq": "Anku",
+        "Lab": "Tenno",
+        "Credits": 10000,
+        "Image": "Cassowar.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 2, "Name": "Gallium" },
+          { "Count": 1500, "Name": "Polymer Bundle" },
+          { "Count": 975, "Name": "Rubedo" },
+          { "Count": 3150, "Name": "Ferrite" }
+        ],
+        "Affinity": 3000
+      },
+      "Knux": {
+        "Prereq": "Ogris",
+        "Lab": "Grineer",
+        "Credits": 75000,
+        "Image": "GrnArchHand.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 10, "Name": "Tellurium" },
+          { "Count": 20000, "Name": "Cryotic" },
+          { "Count": 10000, "Name": "Polymer Bundle" },
+          { "Count": 5000, "Name": "Plastids" }
+        ],
+        "Affinity": 5000
+      },
+      "Hobbled Dragon Key": {
+        "Lab": "Orokin",
+        "Credits": 100,
+        "Image": "VaultKeyHobbled.png",
+        "Time": 1,
+        "Resources": [
+          { "Count": 100, "Name": "Salvage" },
+          { "Count": 1, "Name": "Void Traces" }
+        ],
+        "Affinity": 3000
+      },
+      "Nezha Neuroptics": {
+        "Prereq": "Nezha",
+        "Lab": "Tenno",
+        "Credits": 10000,
+        "Image": "Helmet.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 1, "Name": "Detonite Injector" },
+          { "Count": 1, "Name": "Neurodes" },
+          { "Count": 1000, "Name": "Nano Spores" },
+          { "Count": 500, "Name": "Salvage" }
+        ],
+        "Affinity": 1500
+      },
+      "Extinguished Dragon Key": {
+        "Lab": "Orokin",
+        "Credits": 100,
+        "Image": "VaultKeyExtinguished.png",
+        "Time": 1,
+        "Resources": [
+          { "Count": 100, "Name": "Salvage" },
+          { "Count": 1, "Name": "Void Trace" }
+        ],
+        "Affinity": 3000
+      },
+      "Staticor": {
+        "Prereq": "Amprex",
+        "Lab": "Corpus",
+        "Credits": 7500,
+        "Image": "CrpElectroMag.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 30, "Name": "Fieldron Sample" },
+          { "Count": 800, "Name": "Alloy Plate" },
+          { "Count": 750, "Name": "Nano Spores" },
+          { "Count": 1, "Name": "Tellurium" }
+        ],
+        "Affinity": 3000
+      },
+      "Djinn": {
+        "Prereq": "Dual Ichor",
+        "Lab": "Infested",
+        "Credits": 5000,
+        "Image": "PetDjinn.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 60, "Name": "Mutagen Sample" },
+          { "Count": 800, "Name": "Circuits" },
+          { "Count": 9500, "Name": "Nano Spores" },
+          { "Count": 1200, "Name": "Polymer Bundle" }
+        ],
+        "Affinity": 3000
+      },
+      "Yareli Chassis": {
+        "Lab": "Bash",
+        "Credits": 10000,
+        "Image": "Chassis.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 1, "Name": "Mutagen Mass" },
+          { "Count": 1, "Name": "Morphics" },
+          { "Count": 500, "Name": "Polymer Bundle" },
+          { "Count": 1000, "Name": "Salvage" }
+        ],
+        "Affinity": 1500
+      },
+      "Wukong Systems": {
+        "Prereq": "Wukong",
+        "Lab": "Tenno",
+        "Credits": 10000,
+        "Image": "Systems.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 2, "Name": "Nitain Extract" },
+          { "Count": 1, "Name": "Morphics" },
+          { "Count": 1000, "Name": "Salvage" },
+          { "Count": 500, "Name": "Plastids" }
+        ],
+        "Affinity": 1500
+      },
+      "Gazal Machete": {
+        "Lab": "Tenno",
+        "Credits": 5000,
+        "Image": "DjinnMachete.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 2, "Name": "Neurodes" },
+          { "Count": 500, "Name": "Salvage" },
+          { "Count": 300, "Name": "Alloy Plate" },
+          { "Count": 50, "Name": "Plastids" }
+        ],
+        "Affinity": 3000
+      },
+      "Calcifin Stim": {
+        "Lab": "Tenno",
+        "Credits": 100,
+        "Image": "CalcifinStim.png",
+        "Time": 1,
+        "Resources": [
+          { "Count": 3, "Name": "Synthula" },
+          { "Count": 10000, "Name": "Polymer Bundle" },
+          { "Count": 5000, "Name": "Rubedo" }
+        ],
+        "Affinity": 3000
+      },
+      "Yareli Systems": {
+        "Lab": "Bash",
+        "Credits": 10000,
+        "Image": "Systems.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 1, "Name": "Fieldron" },
+          { "Count": 1, "Name": "Gallium" },
+          { "Count": 500, "Name": "Circuits" },
+          { "Count": 1000, "Name": "Nano Spores" }
+        ],
+        "Affinity": 1500
+      },
+      "Decaying Dragon Key": {
+        "Lab": "Orokin",
+        "Credits": 100,
+        "Image": "VaultKeyDecaying.png",
+        "Time": 1,
+        "Resources": [
+          { "Count": 100, "Name": "Salvage" },
+          { "Count": 1, "Name": "Void Trace" }
+        ],
+        "Affinity": 3000
+      },
+      "Jat Kittag": {
+        "Prereq": "Detonite Injector",
+        "Lab": "Grineer",
+        "Credits": 9000,
+        "Image": "GrnJetPwrPolearm.png",
+        "Time": 96,
+        "Resources": [
+          { "Count": 15, "Name": "Detonite Ampule" },
+          { "Count": 500, "Name": "Salvage" },
+          { "Count": 200, "Name": "Alloy Plate" },
+          { "Count": 350, "Name": "Ferrite" }
+        ],
+        "Affinity": 3000
+      },
+      "Amesha Systems": {
+        "Prereq": "Amesha",
+        "Lab": "Tenno",
+        "Credits": 10000,
+        "Image": "GenericArchwingSystems.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 1, "Name": "Mutagen Mass" },
+          { "Count": 5650, "Name": "Polymer Bundle" },
+          { "Count": 2200, "Name": "Oxium" },
+          { "Count": 1, "Name": "Tellurium" }
+        ],
+        "Affinity": 1500
+      },
+      "Bleeding Dragon Key": {
+        "Lab": "Orokin",
+        "Credits": 100,
+        "Image": "VaultKeyBleeding.png",
+        "Time": 1,
+        "Resources": [
+          { "Count": 100, "Name": "Salvage" },
+          { "Count": 1, "Name": "Void Trace" }
+        ],
+        "Affinity": 3000
+      },
+      "Tenora": {
+        "Prereq": "Sybaris",
+        "Lab": "Tenno",
+        "Credits": 5000,
+        "Image": "TnBardRifle.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 25, "Name": "Morphics" },
+          { "Count": 600, "Name": "Oxium" },
+          { "Count": 3000, "Name": "Plastids" },
+          { "Count": 5500, "Name": "Polymer Bundle" }
+        ],
+        "Affinity": 3000
+      },
+      "Daikyu": {
+        "Prereq": "Akstiletto",
+        "Lab": "Tenno",
+        "Credits": 5000,
+        "Image": "AsymmetricBow.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 1, "Name": "Neurodes" },
+          { "Count": 500, "Name": "Salvage" },
+          { "Count": 50, "Name": "Rubedo" },
+          { "Count": 300, "Name": "Polymer Bundle" }
+        ],
+        "Affinity": 3000
+      },
+      "Zakti": {
+        "Prereq": "Akstiletto",
+        "Lab": "Tenno",
+        "Credits": 10000,
+        "Image": "Zakti.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 3, "Name": "Gallium" },
+          { "Count": 2250, "Name": "Rubedo" },
+          { "Count": 2000, "Name": "Oxium" },
+          { "Count": 5500, "Name": "Salvage" }
+        ],
+        "Affinity": 4000
+      },
+      "Zephyr Systems": {
+        "Prereq": "Zephyr",
+        "Lab": "Tenno",
+        "Credits": 10000,
+        "Image": "Systems.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 1, "Name": "Fieldron" },
+          { "Count": 1, "Name": "Morphics" },
+          { "Count": 1000, "Name": "Salvage" },
+          { "Count": 20, "Name": "Oxium" }
+        ],
+        "Affinity": 1500
+      },
+      "Zephyr Chassis": {
+        "Prereq": "Zephyr",
+        "Lab": "Tenno",
+        "Credits": 10000,
+        "Image": "Chassis.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 1, "Name": "Mutagen Mass" },
+          { "Count": 1, "Name": "Control Module" },
+          { "Count": 1000, "Name": "Ferrite" },
+          { "Count": 20, "Name": "Oxium" }
+        ],
+        "Affinity": 1500
+      },
+      "Yareli": { "Image": "YareliIcon64.png", "Lab": "Bash" },
+      "Endura": {
+        "Prereq": "Nami Skyla",
+        "Lab": "Tenno",
+        "Credits": 10000,
+        "Image": "Endura.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 5, "Name": "Morphics" },
+          { "Count": 40, "Name": "Oxium" },
+          { "Count": 7500, "Name": "Ferrite" },
+          { "Count": 2500, "Name": "Polymer Bundle" }
+        ],
+        "Affinity": 3000
+      },
+      "Phase Specter Regiment": {
+        "Prereq": "Vapor Specter Regiment",
+        "Lab": "Orokin",
+        "Credits": 10000,
+        "Image": "SpecterArmySilver.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 500, "Name": "Alloy Plate" },
+          { "Count": 600, "Name": "Circuits" },
+          { "Count": 7500, "Name": "Nano Spores" },
+          { "Count": 1, "Name": "Argon Crystal" }
+        ],
+        "Affinity": 3000
+      },
+      "Volt Neuroptics": {
+        "Prereq": "Volt",
+        "Lab": "Tenno",
+        "Credits": 10000,
+        "Image": "Helmet.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 1, "Name": "Detonite Injector" },
+          { "Count": 1, "Name": "Neural Sensors" },
+          { "Count": 1000, "Name": "Nano Spores" },
+          { "Count": 500, "Name": "Polymer Bundle" }
+        ],
+        "Affinity": 1500
+      },
+      "Sydon": {
+        "Prereq": "Detonite Injector",
+        "Lab": "Grineer",
+        "Credits": 5000,
+        "Image": "GrnTridentWeapon.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 5, "Name": "Nitain Extract" },
+          { "Count": 16500, "Name": "Ferrite" },
+          { "Count": 12000, "Name": "Alloy Plate" },
+          { "Count": 4650, "Name": "Rubedo" }
+        ],
+        "Affinity": 3000
+      },
+      "Venato": {
+        "Prereq": "Tonbo",
+        "Lab": "Tenno",
+        "Credits": 10000,
+        "Image": "SentJointedScytheWeapon.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 1, "Name": "Tellurium" },
+          { "Count": 275, "Name": "Rubedo" },
+          { "Count": 225, "Name": "Plastids" },
+          { "Count": 3500, "Name": "Salvage" }
+        ],
+        "Affinity": 3000
+      },
+      "Cipher x 100": {
+        "Lab": "Tenno",
+        "Credits": 10000,
+        "Image": "Cipherx100.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 5500, "Name": "Copernics" },
+          { "Count": 6750, "Name": "Titanium" },
+          { "Count": 300, "Name": "Asterite" },
+          { "Count": 5, "Name": "Aucrux Capacitors" }
+        ],
+        "Affinity": 3000
+      },
+      "Tonbo": {
+        "Prereq": "Nami Skyla",
+        "Lab": "Tenno",
+        "Credits": 5000,
+        "Image": "FlowerPowerPolearm.png",
+        "Time": 48,
+        "Resources": [
+          { "Count": 1, "Name": "Morphics" },
+          { "Count": 500, "Name": "Ferrite" },
+          { "Count": 20, "Name": "Oxium" },
+          { "Count": 300, "Name": "Plastids" }
+        ],
+        "Affinity": 3000
+      },
+      "Banshee Systems": {
+        "Prereq": "Banshee",
+        "Lab": "Tenno",
+        "Credits": 10000,
+        "Image": "Systems.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 1, "Name": "Fieldron" },
+          { "Count": 1, "Name": "Morphics" },
+          { "Count": 1000, "Name": "Salvage" },
+          { "Count": 500, "Name": "Plastids" }
+        ],
+        "Affinity": 1500
+      },
+      "Catabolyst": {
+        "Prereq": "Embolist",
+        "Lab": "Infested",
+        "Credits": 5000,
+        "Image": "Catabolyst.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 40, "Name": "Mutagen Sample" },
+          { "Count": 650, "Name": "Plastids" },
+          { "Count": 3750, "Name": "Salvage" },
+          { "Count": 4250, "Name": "Nano Spores" }
+        ],
+        "Affinity": 3000
+      },
+      "Talons": {
+        "Prereq": "Castanas",
+        "Lab": "Tenno",
+        "Credits": 5000,
+        "Image": "U18throwingknives.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 1, "Name": "Control Module" },
+          { "Count": 650, "Name": "Ferrite" },
+          { "Count": 300, "Name": "Cryotic" },
+          { "Count": 400, "Name": "Polymer Bundle" }
+        ],
+        "Affinity": 3000
+      },
+      "Quanta": {
+        "Prereq": "Prova",
+        "Lab": "Corpus",
+        "Credits": 10000,
+        "Image": "CrpShockRifle.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 10, "Name": "Fieldron Sample" },
+          { "Count": 500, "Name": "Salvage" },
+          { "Count": 250, "Name": "Circuits" },
+          { "Count": 3, "Name": "Neural Sensors" }
+        ],
+        "Affinity": 3000
+      },
+      "Silva & Aegis": {
+        "Lab": "Tenno",
+        "Credits": 20000,
+        "Image": "TennoSwordShield.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 2, "Name": "Gallium" },
+          { "Count": 500, "Name": "Ferrite" },
+          { "Count": 60, "Name": "Alloy Plate" },
+          { "Count": 300, "Name": "Polymer Bundle" }
+        ],
+        "Affinity": 3000
+      },
+      "Phage": {
+        "Prereq": "Mutagen Mass",
+        "Lab": "Infested",
+        "Credits": 7500,
+        "Image": "InfestedLongGunTwo.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 10, "Name": "Mutagen Sample" },
+          { "Count": 450, "Name": "Polymer Bundle" },
+          { "Count": 550, "Name": "Salvage" },
+          { "Count": 200, "Name": "Plastids" }
+        ],
+        "Affinity": 3000
+      },
+      "Okina": {
+        "Prereq": "Nami Skyla",
+        "Lab": "Tenno",
+        "Credits": 10000,
+        "Image": "TennoSais.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 5, "Name": "Gallium" },
+          { "Count": 5500, "Name": "Alloy Plate" },
+          { "Count": 165, "Name": "Plastids" },
+          { "Count": 3250, "Name": "Cryotic" }
+        ],
+        "Affinity": 3000
+      },
+      "Nezha Chassis": {
+        "Prereq": "Nezha",
+        "Lab": "Tenno",
+        "Credits": 10000,
+        "Image": "Chassis.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 1, "Name": "Mutagen Mass" },
+          { "Count": 1, "Name": "Neural Sensors" },
+          { "Count": 1000, "Name": "Alloy Plate" },
+          { "Count": 500, "Name": "Circuits" }
+        ],
+        "Affinity": 1500
+      },
+      "Nami Skyla": {
+        "Lab": "Tenno",
+        "Credits": 5000,
+        "Image": "TnoCutlassAndPoignard.png",
+        "Time": 48,
+        "Resources": [
+          { "Count": 1, "Name": "Neurodes" },
+          { "Count": 500, "Name": "Ferrite" },
+          { "Count": 50, "Name": "Rubedo" },
+          { "Count": 300, "Name": "Polymer Bundle" }
+        ],
+        "Affinity": 3000
+      },
+      "Embolist": {
+        "Prereq": "Acrid",
+        "Lab": "Infested",
+        "Credits": 5000,
+        "Image": "InfestedPistol.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 30, "Name": "Mutagen Sample" },
+          { "Count": 400, "Name": "Circuits" },
+          { "Count": 4000, "Name": "Nano Spores" },
+          { "Count": 800, "Name": "Polymer Bundle" }
+        ],
+        "Affinity": 3000
+      },
+      "Masseter": {
+        "Prereq": "Nami Skyla",
+        "Lab": "Tenno",
+        "Credits": 10000,
+        "Image": "Masseter.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 2, "Name": "Gallium" },
+          { "Count": 1200, "Name": "Polymer Bundle" },
+          { "Count": 1450, "Name": "Rubedo" },
+          { "Count": 3250, "Name": "Alloy Plate" }
+        ],
+        "Affinity": 3000
+      },
+      "Arca Plasmor": {
+        "Prereq": "Lanka",
+        "Lab": "Corpus",
+        "Credits": 7500,
+        "Image": "CrpShotgun.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 200, "Name": "Fieldron Sample" },
+          { "Count": 12000, "Name": "Salvage" },
+          { "Count": 3750, "Name": "Circuits" },
+          { "Count": 8, "Name": "Gallium" }
+        ],
+        "Affinity": 3000
+      },
+      "Opticor": {
+        "Prereq": "Lanka",
+        "Lab": "Corpus",
+        "Credits": 10000,
+        "Image": "CrpBFG.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 10, "Name": "Fieldron Sample" },
+          { "Count": 500, "Name": "Ferrite" },
+          { "Count": 250, "Name": "Plastids" },
+          { "Count": 1, "Name": "Gallium" }
+        ],
+        "Affinity": 3000
+      },
+      "Loc-Pin": {
+        "Lab": "Tenno",
+        "Credits": 5000,
+        "Image": "LocPin.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 30, "Name": "Mutagen Sample" },
+          { "Count": 30, "Name": "Detonite Ampule" },
+          { "Count": 30, "Name": "Fieldron Sample" },
+          { "Count": 1, "Name": "Morphics" }
+        ],
+        "Affinity": 3000
+      },
+      "Kavat Incubator Upgrade Segment": {
+        "Lab": "Tenno",
+        "Credits": 20000,
+        "Image": "IncubatorSegmentKavat.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 2, "Name": "Neurodes" },
+          { "Count": 6000, "Name": "Alloy Plate" },
+          { "Count": 900, "Name": "Cryotic" },
+          { "Count": 550, "Name": "Plastids" }
+        ],
+        "Affinity": 6000
+      },
+      "Grattler": {
+        "Prereq": "Ogris",
+        "Lab": "Grineer",
+        "Credits": 7500,
+        "Image": "GrnAntiAirGun.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 10, "Name": "Detonite Ampule" },
+          { "Count": 540, "Name": "Salvage" },
+          { "Count": 390, "Name": "Oxium" },
+          { "Count": 210, "Name": "Rubedo" }
+        ],
+        "Affinity": 5000
+      },
+      "Baza": {
+        "Prereq": "Akstiletto",
+        "Lab": "Tenno",
+        "Credits": 10000,
+        "Image": "Baza.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 1500, "Name": "Alloy Plate" },
+          { "Count": 5, "Name": "Morphics" },
+          { "Count": 1750, "Name": "Salvage" },
+          { "Count": 300, "Name": "Plastids" }
+        ],
+        "Affinity": 3000
+      },
+      "Elytron Wings": {
+        "Prereq": "Elytron",
+        "Lab": "Tenno",
+        "Credits": 10000,
+        "Image": "GenericArchwingHarness.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 1, "Name": "Fieldron" },
+          { "Count": 6450, "Name": "Cryotic" },
+          { "Count": 12500, "Name": "Polymer Bundle" },
+          { "Count": 1, "Name": "Tellurium" }
+        ],
+        "Affinity": 1500
+      },
+      "Kohmak": {
+        "Prereq": "Marelok",
+        "Lab": "Grineer",
+        "Credits": 5000,
+        "Image": "GrnWindUpPistol.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 10, "Name": "Detonite Ampule" },
+          { "Count": 400, "Name": "Ferrite" },
+          { "Count": 500, "Name": "Plastids" },
+          { "Count": 2, "Name": "Gallium" }
+        ],
+        "Affinity": 3000
+      },
+      "Kesheg": {
+        "Prereq": "Sydon",
+        "Lab": "Grineer",
+        "Credits": 5000,
+        "Image": "GrnHalberd.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 10, "Name": "Detonite Ampule" },
+          { "Count": 400, "Name": "Kuva" },
+          { "Count": 13000, "Name": "Ferrite" },
+          { "Count": 9000, "Name": "Alloy Plate" }
+        ],
+        "Affinity": 3000
+      },
+      "Dual Raza": {
+        "Lab": "Tenno",
+        "Credits": 5000,
+        "Image": "SomaDualKamas.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 1, "Name": "Gallium" },
+          { "Count": 400, "Name": "Salvage" },
+          { "Count": 30, "Name": "Alloy Plate" },
+          { "Count": 250, "Name": "Polymer Bundle" }
+        ],
+        "Affinity": 3000
+      },
+      "Clotra Stim": {
+        "Prereq": "Refract Stim",
+        "Lab": "Tenno",
+        "Credits": 100,
+        "Image": "ClotraStim.png",
+        "Time": 1,
+        "Resources": [
+          { "Count": 3, "Name": "Synthula" },
+          { "Count": 10000, "Name": "Polymer Bundle" },
+          { "Count": 5000, "Name": "Rubedo" }
+        ],
+        "Affinity": 3000
+      },
+      "Itzal Harness": {
+        "Prereq": "Itzal",
+        "Lab": "Tenno",
+        "Credits": 10000,
+        "Image": "GenericArchwingWings.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 1, "Name": "Tellurium" },
+          { "Count": 1, "Name": "Detonite Injector" },
+          { "Count": 5500, "Name": "Ferrite" },
+          { "Count": 250, "Name": "Oxium" }
+        ],
+        "Affinity": 1500
+      },
+      "Attica": {
+        "Prereq": "Akstiletto",
+        "Lab": "Tenno",
+        "Credits": 5000,
+        "Image": "TnoPrmryXbow.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 1, "Name": "Morphics" },
+          { "Count": 500, "Name": "Ferrite" },
+          { "Count": 50, "Name": "Rubedo" },
+          { "Count": 300, "Name": "Salvage" }
+        ],
+        "Affinity": 3000
+      },
+      "Anku": {
+        "Prereq": "Akstiletto",
+        "Lab": "Tenno",
+        "Credits": 5000,
+        "Image": "ParisScythe.png",
+        "Time": 48,
+        "Resources": [
+          { "Count": 1, "Name": "Gallium" },
+          { "Count": 50, "Name": "Circuits" },
+          { "Count": 300, "Name": "Polymer Bundle" },
+          { "Count": 500, "Name": "Salvage" }
+        ],
+        "Affinity": 3000
+      },
+      "Battacor": {
+        "Prereq": "Ocucor",
+        "Lab": "Corpus",
+        "Credits": 10000,
+        "Image": "Battacor.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 25, "Name": "Fieldron Sample" },
+          { "Count": 5, "Name": "Mytocardia Spore" },
+          { "Count": 10, "Name": "Venerdo Alloy" },
+          { "Count": 1, "Name": "Kriller Thermal Laser" }
+        ],
+        "Affinity": 5000
+      },
+      "Caustacyst": {
+        "Prereq": "Embolist",
+        "Lab": "Infested",
+        "Credits": 5000,
+        "Image": "EmbolistScythe.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 30, "Name": "Mutagen Sample" },
+          { "Count": 600, "Name": "Plastids" },
+          { "Count": 4000, "Name": "Ferrite" },
+          { "Count": 1200, "Name": "Polymer Bundle" }
+        ],
+        "Affinity": 3000
+      },
+      "Amesha": {
+        "Lab": "Tenno",
+        "Credits": 10000,
+        "Image": "ArchwingSuitSupport.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 2, "Name": "Nitain Extract" },
+          { "Count": 1, "Name": "Detonite Injector" },
+          { "Count": 1, "Name": "Fieldron" },
+          { "Count": 1, "Name": "Mutagen Mass" }
+        ],
+        "Affinity": 3000
+      },
+      "Ferrox": {
+        "Prereq": "Amprex",
+        "Lab": "Corpus",
+        "Credits": 10000,
+        "Image": "Ferrox.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 800, "Name": "Fieldron Sample" },
+          { "Count": 550, "Name": "Circuits" },
+          { "Count": 3500, "Name": "Ferrite" },
+          { "Count": 500, "Name": "Oxium" }
+        ],
+        "Affinity": 3000
+      },
+      "Squad Shield Restore (Large) x 100": {
+        "Prereq": "Squad Shield Restore (Medium) x 10",
+        "Lab": "Corpus",
+        "Credits": 25000,
+        "Image": "SquadShieldRestoreLargex100.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 550, "Name": "Fieldron Sample" },
+          { "Count": 6750, "Name": "Copernics" },
+          { "Count": 300, "Name": "Isos" },
+          { "Count": 5, "Name": "Komms" }
+        ],
+        "Affinity": 3000
+      },
+      "Dual Cestra": {
+        "Prereq": "Fieldron",
+        "Lab": "Corpus",
+        "Credits": 8000,
+        "Image": "DualCorpusMinigun.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 10, "Name": "Fieldron Sample" },
+          { "Count": 400, "Name": "Salvage" },
+          { "Count": 200, "Name": "Polymer Bundle" },
+          { "Count": 150, "Name": "Circuits" }
+        ],
+        "Affinity": 3000
+      },
+      "Lenz": {
+        "Prereq": "Amprex",
+        "Lab": "Corpus",
+        "Credits": 7500,
+        "Image": "Lenz.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 1000, "Name": "Fieldron Sample" },
+          { "Count": 1200, "Name": "Alloy Plate" },
+          { "Count": 7500, "Name": "Polymer Bundle" },
+          { "Count": 50, "Name": "Neurodes" }
+        ],
+        "Affinity": 4000
+      },
+      "Kreska": {
+        "Lab": "Corpus",
+        "Credits": 10000,
+        "Image": "Kreska.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 25, "Name": "Fieldron Sample" },
+          { "Count": 5, "Name": "Thermal Sludge" },
+          { "Count": 10, "Name": "Axidrol Alloy" },
+          { "Count": 1, "Name": "Recaster Neural Relay" }
+        ],
+        "Affinity": 5000
+      },
+      "Ocucor": {
+        "Prereq": "Kreska",
+        "Lab": "Corpus",
+        "Credits": 10000,
+        "Image": "Ocucor.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 25, "Name": "Fieldron Sample" },
+          { "Count": 5, "Name": "Gorgaricus Spore" },
+          { "Count": 10, "Name": "Travocyte Alloy" },
+          { "Count": 1, "Name": "Eye-Eye Rotoblade" }
+        ],
+        "Affinity": 5000
+      },
+      "Prova": {
+        "Prereq": "Fieldron",
+        "Lab": "Corpus",
+        "Credits": 5000,
+        "Image": "Prova8point2.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 5, "Name": "Fieldron Sample" },
+          { "Count": 100, "Name": "Rubedo" },
+          { "Count": 500, "Name": "Nano Spores" },
+          { "Count": 200, "Name": "Polymer Bundle" }
+        ],
+        "Affinity": 3000
+      },
+      "Jat Kusar": {
+        "Prereq": "Jat Kittag",
+        "Lab": "Grineer",
+        "Credits": 7500,
+        "Image": "Jat Kusar.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 750, "Name": "Detonite Ampule" },
+          { "Count": 2400, "Name": "Polymer Bundle" },
+          { "Count": 13500, "Name": "Alloy Plate" },
+          { "Count": 10000, "Name": "Ferrite" }
+        ],
+        "Affinity": 3000
+      },
+      "Squad Shield Restore (Medium) x 10": {
+        "Prereq": "Squad Shield Restore (Medium)",
+        "Lab": "Corpus",
+        "Credits": 5000,
+        "Image": "ShieldTotemMediumBundle.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 30, "Name": "Fieldron Sample" },
+          { "Count": 100, "Name": "Rubedo" },
+          { "Count": 500, "Name": "Nano Spores" },
+          { "Count": 200, "Name": "Polymer Bundle" }
+        ],
+        "Affinity": 3000
+      },
+      "Squad Ammo Restore (Medium) x 10": {
+        "Prereq": "Squad Ammo Restore (Medium)",
+        "Lab": "Grineer",
+        "Credits": 5000,
+        "Image": "AmmoTotemMediumBundle.png",
+        "Time": 72,
+        "Resources": [
+          { "Count": 35, "Name": "Detonite Ampule" },
+          { "Count": 400, "Name": "Ferrite" },
+          { "Count": 300, "Name": "Plastids" },
+          { "Count": 600, "Name": "Polymer Bundle" }
+        ],
+        "Affinity": 3000
+      }
+    }
+  },
+  "meta": {
+    "nRefresh": 2,
+    "lastRefresh": 1642424013196,
+    "hash": "u/HeKIki5KIAa9+ekBWYTaEi/fNFneMjAtYju+bWsHU=",
+    "license": "CC BY-SA"
+  }
+}

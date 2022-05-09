@@ -1,0 +1,981 @@
+{
+  "data": {
+    "Flags": {
+      "France": "Mainpage-Flag-France.png",
+      "Korea": "Flag-Korea.png",
+      "Finland": "Flag-Finland.png",
+      "Taiwan": "Flag-Taiwan.png",
+      "Hong Kong": "Flag-HK.png",
+      "Japan": "Flag-Japan.png",
+      "Spain": "Mainpage-Flag-Spain.png",
+      "Russia": "Mainpage-Flag-Russia.png",
+      "Italy": "Mainpage-Flag-Italy.png",
+      "English": "Flag-English.png",
+      "Vietnam": "Flag-Vietnam.png",
+      "EU": "Flag-EU.png",
+      "Ukraine": "Flag-Ukraine.png",
+      "Nederlands": "Flag-Nederlands.png",
+      "China": "Flag-China.png",
+      "Indonesia": "Flag-Indonesia.png",
+      "Germany": "Mainpage-Flag-Germany.png",
+      "USA": "Flag-USA.png",
+      "Philippines": "Flag-Philippines.png",
+      "Portugal": "Mainpage-Flag-Portugal.png",
+      "Turkey": "Mainpage-Flag-Turkey.png",
+      "Poland": "Mainpage-Flag-Poland.png",
+      "New Zealand": "Flag-NZ.png",
+      "Hungary": "Mainpage-Flag-Hungary.png",
+      "Canada": "Flag-Canada.png"
+    },
+    "Factions": {
+      "Corrupted": {
+        "link": "Corrupted",
+        "icon": ["IconOrokinB.svg", "IconOrokinOn.png"]
+      },
+      "Tenno": {
+        "link": "Tenno",
+        "icon": ["LotusBlack.png", "LotusWhite.png"]
+      },
+      "Corpus": {
+        "link": "Corpus",
+        "icon": ["IconCorpusB.svg", "IconCorpusOn.png"]
+      },
+      "Syndicates": {
+        "link": "Syndicates",
+        "icon": ["ReputationLargeBlack.png", "ReputationLarge.png"]
+      },
+      "Sentient": {
+        "link": "Sentient",
+        "icon": ["SentientFactionIcon b.png", "SentientFactionIcon.png"]
+      },
+      "Stalker": {
+        "link": "Stalker",
+        "icon": ["StalkerSigil_b.png", "StalkerSigil.png"]
+      },
+      "Orokin": {
+        "link": "Orokin",
+        "icon": ["IconOrokinB.svg", "IconOrokinOn.png"]
+      },
+      "Grineer": {
+        "link": "Grineer",
+        "icon": ["IconGrineerB.svg", "IconGrineerOn.png"]
+      },
+      "Oddities": {
+        "link": "Oddities",
+        "icon": ["FactionOddity_b.png", "FactionOddity.png"]
+      },
+      "Wild": { "link": "Wild", "icon": ["IconWildB.png", "IconWildOn.png"] },
+      "Infested": {
+        "link": "Infested",
+        "icon": ["Infestation_b.svg", "Infestation_w.svg"]
+      }
+    },
+    "Items": {
+      "TennoGen": { "link": "TennoGen", "icon": "Tennogenlogo.png" },
+      "Focus Lens": { "link": "Focus Lens", "icon": "FocusLens1Rank sq.png" },
+      "Granum Crown Decoration": {
+        "link": "Granum Crown Decoration",
+        "icon": "GranumCrown64.png"
+      },
+      "Veiled Riven Cipher": {
+        "link": "Veiled Riven Cipher",
+        "icon": "RivenCipherx64.png"
+      },
+      "Subcortex": { "title": "Subcortex", "icon": "GenericComponentPlug.png" },
+      "Systems": { "link": "Warframe Systems", "icon": "systems.png" },
+      "Clan Key": { "link": "Clan Key", "icon": "DojoKey.png" },
+      "Archwing Wings": {
+        "link": "Archwing",
+        "icon": "GenericArchwingWings.png"
+      },
+      "Prime Helmet": {
+        "link": "Warframe Neuroptics",
+        "icon": "PrimeHelmet.png"
+      },
+      "Power Cell": { "link": "Power Cell", "icon": "PowerCell.png" },
+      "Prime Wings": { "link": "Wings", "icon": "GenericArchwingWings.png" },
+      "Prime Guard": {
+        "title": "Guard",
+        "icon": "GenericWeaponPrimeGuard.png"
+      },
+      "Prime Ornament": {
+        "title": "Ornament",
+        "icon": "GenericComponentPrimePlug.png"
+      },
+      "Orokin Derelict Exterminate Key": {
+        "link": "Orokin Derelict#Exterminate|Orokin Derelict Exterminate Key",
+        "icon": "OrokinDerelictKey.png"
+      },
+      "Disc": { "title": "Disc", "icon": "Link.png" },
+      "Amethyst Antitoxin": {
+        "link": "Antitoxin_(Gear)#Amethyst|Amethyst Antitoxin",
+        "icon": "AntidoteNightCommon.png"
+      },
+      "Blueprint": { "link": "Blueprints", "icon": "Blueprint2.svg" },
+      "Hilt": { "title": "Hilt", "icon": "GenericWeaponHilt.png" },
+      "Archwing Harness": {
+        "link": "Archwing",
+        "icon": "GenericArchwingHarness.png"
+      },
+      "Chassis": { "link": "Warframe Chassis", "icon": "chassis.png" },
+      "20x Fosfor Blau": {
+        "link": "Fosfor#Fosfor_Blau|20x Fosfor Blau",
+        "icon": "FosforBlau.png"
+      },
+      "Prime Neuroptics Blueprint": {
+        "link": "Warframe Neuroptics",
+        "icon": "PrimeHelmet.png"
+      },
+      "Prime Pouch": {
+        "title": "Pouch",
+        "icon": "GenericComponentPrimeLatch.png"
+      },
+      "Prime Handle": {
+        "title": "Handle",
+        "icon": "GenericWeaponPrimeHilt.png"
+      },
+      "Mod": { "link": "Mods", "icon": "FusionCorePackSilversingle.png" },
+      "Receiver": { "title": "Receiver", "icon": "Receiver.png" },
+      "Nora Cred": { "link": "Nightwave", "icon": "NoraCred64.png" },
+      "Prime Band": {
+        "link": "Band",
+        "icon": "GenericComponentPrimeLatch.png"
+      },
+      "Hobbled Dragon Key": {
+        "link": "Dragon Key|Hobbled Dragon Key",
+        "icon": "VaultKeyHobbled.png"
+      },
+      "Mutalist Alad V Assassinate Key": {
+        "link": "Mutalist Alad V Assassinate Key",
+        "icon": "CBaladvinfestedquest.png"
+      },
+      "Exilus Adapter": {
+        "link": "Exilus Adapter",
+        "icon": "ExilusAdapter64.png"
+      },
+      "Orokin Derelict Assassinate Key": {
+        "link": "Orokin Derelict#Assassinate|Orokin Derelict Assassinate Key",
+        "icon": "OrokinDerelictKey.png"
+      },
+      "Aura Forma": { "link": "Aura Forma", "icon": "OmegaForma.png" },
+      "Prime Buckle": {
+        "link": "Buckle",
+        "icon": "GenericComponentPrimePlug.png"
+      },
+      "Stock": { "title": "Stock", "icon": "Stock.png" },
+      "Prime Boot": { "title": "Boot", "icon": "GenericWeaponPrimeGuard.png" },
+      "Prime Gauntlet": {
+        "title": "Gauntlet",
+        "icon": "GenericWeaponPrimeHilt.png"
+      },
+      "Limbs": { "title": "Limbs", "icon": "Stock.png" },
+      "Mortuus Shoulder Guard": {
+        "link": "Mortuus Shoulder Guard",
+        "icon": "MortuusShoulderGuard.png"
+      },
+      "100x Cipher": {
+        "link": "Cipher|100 x Cipher",
+        "icon": "Cipherx100.png"
+      },
+      "Topaz Antitoxin": {
+        "link": "Antitoxin_(Gear)#Topaz|Topaz Antitoxin",
+        "icon": "AntidoteNightUncommon.png"
+      },
+      "Forma": { "link": "Forma", "icon": "Forma2.png" },
+      "Gravimag": { "link": "Gravimag", "icon": "Gravimag.png" },
+      "Resources": { "link": "Resources", "icon": "Resource Orange.png" },
+      "Archwing Harness Blueprint": {
+        "link": "Archwing",
+        "icon": "GenericArchwingHarness.png"
+      },
+      "Core": { "title": "Core", "icon": "Link.png" },
+      "Exilus Weapon Adapter": {
+        "link": "Exilus Weapon Adapter",
+        "icon": "ExilusWeaponAdapter64.png"
+      },
+      "Orokin Reactor": {
+        "link": "Orokin Reactor",
+        "icon": "OrokinReactor64.png"
+      },
+      "Band": { "link": "Band", "icon": "GenericComponentPrimeLatch.png" },
+      "Rivet": { "title": "Rivet", "icon": "Link.png" },
+      "10x Force Specter": {
+        "link": "Specter_(Tenno)#Force|10x Force Specter",
+        "icon": "SpecterGold.png"
+      },
+      "Air Support Charges": {
+        "link": "Air Support Charges",
+        "icon": "LisetAirSupport.png"
+      },
+      "Orokin Derelict Survival Key": {
+        "link": "Orokin Derelict#Survival|Orokin Derelict Survival Key",
+        "icon": "OrokinDerelictKey.png"
+      },
+      "Prime Cerebrum": { "link": "Cerebrum", "icon": "PrimeHelmet.png" },
+      "Stance Forma": { "link": "Stance Forma", "icon": "StanceForma.png" },
+      "Gun Handle": { "title": "Handle", "icon": "Receiver.png" },
+      "Axi": { "link": "Void Relic", "icon": "VoidProjectionsGoldD.png" },
+      "Granum Crown": { "link": "Granum Crown", "icon": "GranumCrown64.png" },
+      "Prime Blades": {
+        "title": "Blades",
+        "icon": "GenericWeaponPrimeBlade.png"
+      },
+      "Razorback Cipher": {
+        "link": "Razorback Cipher",
+        "icon": "RazorbackCipher.png"
+      },
+      "Antiserum Injector": {
+        "link": "Antiserum Injector",
+        "icon": "SyringeStandardFull.png"
+      },
+      "Credits": { "link": "Credits", "icon": "Credits64.png" },
+      "Prime Blade": {
+        "title": "Blade",
+        "icon": "GenericWeaponPrimeBlade.png"
+      },
+      "Orokin Derelict Capture Key": {
+        "link": "Orokin Derelict#Capture|Orokin Derelict Capture Key",
+        "icon": "OrokinDerelictKey.png"
+      },
+      "Guard": { "title": "Guard", "icon": "Pouch.png" },
+      "Derelict Emissary Assassinate Key": {
+        "link": "Orokin Derelict#Assassinate|Derelict Emissary Assassinate Key",
+        "icon": "OrokinDerelictKey.png"
+      },
+      "Intermission Iii Cred": {
+        "link": "Nightwave",
+        "icon": "Nora3Cred64.png"
+      },
+      "Motor": { "title": "Motor", "icon": "GenericGunStock.png" },
+      "Archwing Launcher": {
+        "link": "Archwing Launcher",
+        "icon": "GenericArchwingSystems.png"
+      },
+      "Phase Specter": {
+        "link": "Specter_(Tenno)#Phase|Phase Specter",
+        "icon": "SpecterSilver.png"
+      },
+      "Prime Stars": {
+        "title": "Stars",
+        "icon": "GenericWeaponPrimeBlade.png"
+      },
+      "Riven Transmuter": {
+        "link": "Riven Transmuter",
+        "icon": "RivenTransmuterx64.png"
+      },
+      "Secondary Arcane Adapter": {
+        "link": "Secondary Arcane Adapter",
+        "icon": "SecondaryArcaneAdapter.png"
+      },
+      "Helmet": { "link": "Warframe Neuroptics", "icon": "helmet.png" },
+      "Void Keys": { "link": "Void Keys", "icon": "DEVoid Key.png" },
+      "Link": { "title": "Link", "icon": "Link.png" },
+      "Prime Disc": { "title": "Disc", "icon": "GenericWeaponPrimeBlade.png" },
+      "Meso": { "link": "Void Relic", "icon": "VoidProjectionsBronzeD.png" },
+      "Mods": { "link": "Mods", "icon": "FusionCorePackSilversingle.png" },
+      "10x Vapor Specter": {
+        "link": "Specter_(Tenno)#Vapor|10x Vapor Specter",
+        "icon": "SpecterBronze.png"
+      },
+      "Omni Ammo Box": { "link": "Omni Ammo box", "icon": "Ammo_Box.png" },
+      "Distilling Extractor": {
+        "link": "Extractor#Distilling_Extractor|Distilling Extractor",
+        "icon": "DEResourceDroneUc.png"
+      },
+      "Orokin Derelict Sabotage Key": {
+        "link": "Orokin Derelict#Sabotage|Orokin Derelict Sabotage Key",
+        "icon": "OrokinDerelictKey.png"
+      },
+      "Phasic Cells": {
+        "link": "Operation: Orphix Venom",
+        "title": "Phasic Cells",
+        "icon": "PhasicCells.png"
+      },
+      "Right Gauntlet": { "title": "Right Gauntlet", "icon": "Blade.png" },
+      "Fuselage": {
+        "link": "Landing Craft",
+        "icon": "GenericLandingCraftFuselage.png"
+      },
+      "Team Shield Restore": {
+        "link": "Team Shield Restore",
+        "icon": "TeamShieldRestore.png"
+      },
+      "Infested Catalyst": {
+        "link": "Infested Catalyst",
+        "icon": "Infestedcatalyst.png"
+      },
+      "Archwing Systems": {
+        "link": "Archwing",
+        "icon": "GenericArchwingSystems.png"
+      },
+      "Prime Hilt": { "title": "Hilt", "icon": "GenericWeaponPrimeHilt.png" },
+      "Crystal Cred": { "link": "Nightwave", "icon": "CrystalCred64.png" },
+      "Bleeding Dragon Key": {
+        "link": "Dragon Key|Bleeding Dragon Key",
+        "icon": "VaultKeyBleeding.png"
+      },
+      "Prime Grip": {
+        "title": "Grip",
+        "icon": "GenericComponentPrimeLatch.png"
+      },
+      "Umbra Forma": { "link": "Umbra Forma", "icon": "FormaUmbra.png" },
+      "Mutate": {
+        "link": ":Category:Ammo Mutation Mods",
+        "icon": "AmmoMutation.png"
+      },
+      "Team Heal Restore": {
+        "link": "Team Heal Restore",
+        "icon": "TeamHealRestore.png"
+      },
+      "Zenith Granum Crown Decoration": {
+        "link": "Zenith Granum Crown Decoration",
+        "icon": "ZenithGranumCrown64.png"
+      },
+      "Pouch": { "title": "Pouch", "icon": "Pouch.png" },
+      "Ducats": { "link": "Ducats", "icon": "PrimeBucks.png" },
+      "Orokin Catalyst": {
+        "link": "Orokin Catalyst",
+        "icon": "OrokinCatalyst64.png"
+      },
+      "Exemplar Granum Crown Decoration": {
+        "link": "Exemplar Granum Crown Decoration",
+        "icon": "ExemplarGranumCrown64.png"
+      },
+      "Zenith Granum Crown": {
+        "link": "Zenith Granum Crown",
+        "icon": "ZenithGranumCrown64.png"
+      },
+      "Exemplar Granum Crown": {
+        "link": "Exemplar Granum Crown",
+        "icon": "ExemplarGranumCrown64.png"
+      },
+      "Eidolon Phylaxis": {
+        "link": "Eidolon Phylaxis",
+        "icon": "EidolonPhylaxis.png"
+      },
+      "Eidolon Lens": { "link": "Eidolon Lens", "icon": "EidolonLens.png" },
+      "Market": { "link": "Market", "icon": "MarketIcon.png" },
+      "Carapace": { "link": "Carapace", "icon": "chassis.png" },
+      "Incubator Power Core": {
+        "link": "Incubator Power Core",
+        "icon": "EggHatcher.png"
+      },
+      "Orokin Derelict Defense Key": {
+        "link": "Orokin Derelict#Defense|Orokin Derelict Defense Key",
+        "icon": "OrokinDerelictKey.png"
+      },
+      "Fosfor Rahd": {
+        "link": "Fosfor#Fosfor_Rahd|Fosfor Rahd",
+        "icon": "FosforRahd.png"
+      },
+      "Gauntlet": { "title": "Gauntlet", "icon": "Blade.png" },
+      "Primary Arcane Adapter": {
+        "link": "Primary Arcane Adapter",
+        "icon": "PrimaryArcaneAdapter.png"
+      },
+      "Aegis": { "title": "Aegis", "icon": "Pouch.png" },
+      "Heatsink": { "title": "Heatsink", "icon": "Link.png" },
+      "Fosfor Blau": {
+        "link": "Fosfor#Fosfor_Blau|Fosfor Blau",
+        "icon": "FosforBlau.png"
+      },
+      "10x Air Support Charges": {
+        "link": "Air Support Charges|10 x Air Support Charges",
+        "icon": "LisetAirSupport.png"
+      },
+      "20x Fosfor Rahd": {
+        "link": "Fosfor#Fosfor_Rahd|20x Fosfor Rahd",
+        "icon": "FosforRahd.png"
+      },
+      "Fomorian Disruptor": {
+        "link": "Fomorian Disruptor",
+        "icon": "FomorianDisruptor.png"
+      },
+      "Titan Extractor": {
+        "link": "Extractor#Titan_Extractor|Titan Extractor",
+        "icon": "DETitan_Extractor.png"
+      },
+      "Endo": { "link": "Endo", "icon": "Endo64.png" },
+      "Prime Neuroptics": {
+        "link": "Warframe Neuroptics",
+        "icon": "PrimeHelmet.png"
+      },
+      "50x Pherliac Pod": {
+        "link": "Pherliac Pod|50x Pherliac Pod",
+        "icon": "BallSpawnerInfestedBait.png"
+      },
+      "Platinum": { "link": "Platinum", "icon": "Platinum64.png" },
+      "Kubrow Egg": { "link": "Kubrow Egg", "icon": "KubrowEgg.png" },
+      "Clotra Stim": {
+        "link": "Stims#Clotra_Stim|Clotra Stim",
+        "icon": "ClotraStim.png"
+      },
+      "Refract Stim": {
+        "link": "Stims#Refract_Stim|Refract Stim",
+        "icon": "RefractStim.png"
+      },
+      "Prime Receiver": {
+        "title": "Receiver",
+        "icon": "GenericGunPrimeReceiver.png"
+      },
+      "Affinity": { "link": "Affinity", "icon": "Affinity.png" },
+      "Calcifin Stim": {
+        "link": "Stims#Calcifin_Stim|Calcifin Stim",
+        "icon": "CalcifinStim.png"
+      },
+      "Prime Chain": { "title": "Chain", "icon": "GenericGunPrimeStock.png" },
+      "Cosmic Specter": {
+        "link": "Specter_(Tenno)#Cosmic|Cosmic Specter",
+        "icon": "SpecterPlatinum.png"
+      },
+      "Team Energy Restore": {
+        "link": "Team Energy Restore",
+        "icon": "TeamEnergyRestore.png"
+      },
+      "Force Specter": {
+        "link": "Specter_(Tenno)#Force|Force Specter",
+        "icon": "SpecterGold.png"
+      },
+      "Blueprints": { "link": "Blueprints", "icon": "Blueprint2.svg" },
+      "10x Phase Specter": {
+        "link": "Specter_(Tenno)#Phase|10x Phase Specter",
+        "icon": "SpecterSilver.png"
+      },
+      "Prime Carapace": { "link": "Carapace", "icon": "PrimeChassis.png" },
+      "Prime Lower Limb": {
+        "title": "Lower Limb",
+        "icon": "GenericWeaponPrimeBlade.png"
+      },
+      "Lith": { "link": "Void Relic", "icon": "VoidProjectionsIronD.png" },
+      "Regular Lens": {
+        "link": "Regular Lens",
+        "icon": "FocusLens1Rank sq.png"
+      },
+      "Vapor Specter": {
+        "link": "Specter_(Tenno)#Vapor|Vapor Specter",
+        "icon": "SpecterBronze.png"
+      },
+      "10x Cosmic Specter": {
+        "link": "Specter_(Tenno)#Cosmic|10x Cosmic Specter",
+        "icon": "SpecterPlatinum.png"
+      },
+      "Left Gauntlet": { "title": "Left Gauntlet", "icon": "Blade.png" },
+      "Prime Systems Blueprint": {
+        "link": "Warframe Systems",
+        "icon": "PrimeSystems.png"
+      },
+      "Weapon Chassis": { "title": "Chassis", "icon": "Stock.png" },
+      "Citrine Antitoxin": {
+        "link": "Antitoxin_(Gear)#Citrine|Citrine Antitoxin",
+        "icon": "AntidoteDayUncommon.png"
+      },
+      "Beryl Antitoxin": {
+        "link": "Antitoxin_(Gear)#Beryl|Beryl Antitoxin",
+        "icon": "AntidoteDayCommon.png"
+      },
+      "Fusion Core": {
+        "link": "Fusion Core",
+        "icon": "FusionCorePackSilversingle.png"
+      },
+      "Prime Chassis": {
+        "link": "Warframe Chassis",
+        "icon": "PrimeChassis.png"
+      },
+      "Greater Lens": {
+        "link": "Greater Lens",
+        "icon": "FocusLens2Rank_sq.png"
+      },
+      "Standing": { "link": "Standing", "icon": "ReputationBlackx64.png" },
+      "Extinguished Dragon Key": {
+        "link": "Dragon Key|Extinguished Dragon Key",
+        "icon": "VaultKeyExtinguished.png"
+      },
+      "Intermission Ii Cred": {
+        "link": "Nightwave",
+        "icon": "Nora2Cred64.png"
+      },
+      "Decaying Dragon Key": {
+        "link": "Dragon Key|Decaying Dragon Key",
+        "icon": "VaultKeyDecaying.png"
+      },
+      "Cipher": { "link": "Cipher", "icon": "Cipher.png" },
+      "Engines": {
+        "link": "Landing Craft",
+        "icon": "GenericLandingCraftEngines.png"
+      },
+      "Orokin Derelict Mobile Defense Key": {
+        "link": "Orokin Derelict#Mobile%20Defense|Orokin Derelict Mobile Defense Key",
+        "icon": "OrokinDerelictKey.png"
+      },
+      "Arcane": {
+        "link": "Arcane Enhancement",
+        "icon": "CosmeticEnhancer.png"
+      },
+      "Avionics": {
+        "link": "Landing Craft",
+        "icon": "GenericLandingCraftSystems.png"
+      },
+      "Prime Head": { "title": "Head", "icon": "GenericWeaponPrimeBlade.png" },
+      "Equinox Night Aspect": { "link": "Equinox", "icon": "AnimaAspect.png" },
+      "Equinox Day Aspect": { "link": "Equinox", "icon": "AnimusAspect.png" },
+      "Void Key": { "link": "Void Keys", "icon": "DEVoid Key.png" },
+      "Blade": { "title": "Blade", "icon": "Blade.png" },
+      "Prime Harness": {
+        "link": "Harness",
+        "icon": "GenericArchwingHarness.png"
+      },
+      "Vermilion Antitoxin": {
+        "link": "Antitoxin_(Gear)#Vermilion|Vermilion Antitoxin",
+        "icon": "VermillionToxin.png"
+      },
+      "Day Aspect": { "link": "Equinox", "icon": "AnimusAspect.png" },
+      "Corrupted Holokey": {
+        "link": "Corrupted Holokey",
+        "icon": "CorruptedHolokey.png"
+      },
+      "Wolf Cred": { "link": "Nightwave", "icon": "WolfCred64.png" },
+      "Mastery": { "link": "Mastery Rank", "icon": "MasterySigilClear_b.png" },
+      "10x Cipher": {
+        "link": "Cipher|10 x Cipher",
+        "icon": "CipherPackMedium2.png"
+      },
+      "Part": { "link": "Weapons", "icon": "Weapon_Part_32px.png" },
+      "Buckle": { "link": "Buckle", "icon": "GenericComponentPrimeLatch.png" },
+      "Stars": { "title": "Stars", "icon": "Blade.png" },
+      "Archwing Wings Blueprint": {
+        "link": "Archwing",
+        "icon": "GenericArchwingWings.png"
+      },
+      "Health Restore": {
+        "link": "Health Restore",
+        "icon": "Large_Health_Restore.png"
+      },
+      "Neo": { "link": "Void Relic", "icon": "VoidProjectionsSilverD.png" },
+      "Handle": { "title": "Handle", "icon": "GenericWeaponHilt.png" },
+      "Prime Systems": {
+        "link": "Warframe Systems",
+        "icon": "PrimeSystems.png"
+      },
+      "Steel Essence": { "link": "Steel Essence", "icon": "SteelEssence.png" },
+      "Prime Chassis Blueprint": {
+        "link": "Warframe Chassis",
+        "icon": "PrimeChassis.png"
+      },
+      "Lua Lens": { "link": "Lua Lens", "icon": "Lua_Lens.png" },
+      "Prime String": { "title": "String", "icon": "GenericGunPrimeStock.png" },
+      "Prime Upper Limb": {
+        "title": "Upper Limb",
+        "icon": "GenericWeaponPrimeBlade.png"
+      },
+      "Neuroptics": { "link": "Warframe Neuroptics", "icon": "helmet.png" },
+      "Scarlet Credits": {
+        "link": "Scarlet Spear",
+        "title": "Scarlet Credits",
+        "icon": "ScarletCredits.png"
+      },
+      "Prime Stock": { "title": "Stock", "icon": "GenericGunPrimeStock.png" },
+      "Adrenal Stim": {
+        "link": "Stims#Adrenal_Stim|Adrenal Stim",
+        "icon": "AdrenalStim.png"
+      },
+      "Prime Barrel": {
+        "title": "Barrel",
+        "icon": "GenericGunPrimeBarrel.png"
+      },
+      "Prime Link": {
+        "title": "Link",
+        "icon": "GenericComponentPrimePlug.png"
+      },
+      "Head": { "title": "Head", "icon": "GenericWeaponHead.png" },
+      "Night Aspect": { "link": "Equinox", "icon": "AnimaAspect.png" },
+      "Lapis Antitoxin": {
+        "link": "Antitoxin_(Gear)#Lapis|Lapis Antitoxin",
+        "icon": "AntidoteNightRare.png"
+      },
+      "Barrel": { "title": "Barrel", "icon": "Barrel.png" },
+      "Archwing Systems Blueprint": {
+        "link": "Archwing",
+        "icon": "GenericArchwingSystems.png"
+      },
+      "Emissary Cred": { "link": "Nightwave", "icon": "EmissaryCred64.png" },
+      "Team Ammo Restore": {
+        "link": "Team Ammo Restore",
+        "icon": "TeamAmmoRestore.png"
+      },
+      "Cerebrum": { "link": "Cerebrum", "icon": "helmet.png" }
+    },
+    "Syndicates": {
+      "Cephalon Simaris": {
+        "link": "Cephalon Simaris",
+        "icon": ["Simaris Sigil black.png", "Simaris Sigil.png"]
+      },
+      "Conclave": {
+        "link": "Conclave",
+        "icon": ["FactionSigilConclave_black.png", "FactionSigilConclave.png"]
+      },
+      "Arbiters of Hexis": {
+        "link": "Arbiters of Hexis",
+        "icon": ["ArbitarIconBlack.png", "FactionSigilJudge.png"]
+      },
+      "Cephalon Suda": {
+        "link": "Cephalon Suda",
+        "icon": ["CephalonIconBlack.svg", "FactionSigilOracle.png"]
+      },
+      "New Loka": {
+        "link": "New Loka",
+        "icon": ["LokaIconBlack.png", "FactionSigilChurch.png"]
+      },
+      "Steel Meridian": {
+        "link": "Steel Meridian",
+        "icon": ["SteelIconBlack.svg", "FactionSigilRebels.png"]
+      },
+      "Reputation": {
+        "link": "Syndicates",
+        "icon": ["ReputationSmallBlack.png", "ReputationSmall.png"]
+      },
+      "Vox Solaris": {
+        "link": "Vox Solaris (Syndicate)",
+        "icon": ["VoxSolarisIcon.png", "ReputationLarge.png"]
+      },
+      "Flag": {
+        "link": "Syndicates",
+        "icon": ["ReputationLargeBlack.png", "ReputationLarge.png"]
+      },
+      "Baro Ki'Teer": {
+        "link": "Baro Ki'Teer",
+        "icon": ["PrismaSigil_b.png", "PrismaSigil.png"]
+      },
+      "Red Veil": {
+        "link": "Red Veil",
+        "icon": ["RedVeilIconBlack.png", "RedVeilIconWhite.png"]
+      },
+      "Operational Supply": {
+        "link": "Operational Supply",
+        "icon": ["OperationSyndicateSigil.png", "ReputationLarge.png"]
+      },
+      "The Perrin Sequence": {
+        "link": "The Perrin Sequence",
+        "icon": ["PerrinSequenceIconBlack.svg", "FactionSigilBusiness.png"]
+      }
+    },
+    "Affinity": {
+      "Legendary": { "link": "Mastery Rank", "icon": "LegendaryIcon.png" },
+      "Mastery": { "link": "Mastery Rank", "icon": "MasteryAffinity64.png" },
+      "Clan": { "link": "Research", "icon": "ClanAffinity64.png" }
+    },
+    "Buff": {
+      "Damage Reduction": {
+        "link": "Damage",
+        "icon": ["DamageReductionBuff.png", "DamageReductionBuffBlack.png"]
+      },
+      "Armor": {
+        "link": "Armor",
+        "icon": ["ArmorBuff.png", "ArmorBuffBlack.png"]
+      },
+      "Combo Critical Chance": {
+        "link": "Melee#Combo Counter",
+        "icon": [
+          "ComboCriticalChanceBuff.png",
+          "ComboCriticalChanceBuffBlack.png"
+        ]
+      },
+      "Energy Regen": {
+        "link": "Energy",
+        "icon": ["EnergyRegenBuff.png", "EnergyRegenBuffBlack.png"]
+      },
+      "Accuracy": {
+        "link": "Accuracy",
+        "icon": ["AccuracyBuff.png", "AccuracyBuffBlack.png"]
+      },
+      "Status Chance": {
+        "link": "Status Effect#Status Chance",
+        "icon": ["StatusChanceBuff.png", "StatusChanceBuffBlack.png"]
+      },
+      "Damage Blessing": {
+        "link": "True Master's Font",
+        "icon": [
+          "MasteryRankBlessingBuffDamage.png",
+          "MasteryRankBlessingBuffDamageBlack.png"
+        ]
+      },
+      "Health Blessing": {
+        "link": "True Master's Font",
+        "icon": [
+          "MasteryRankBlessingBuffHealth.png",
+          "MasteryRankBlessingBuffHealthBlack.png"
+        ]
+      },
+      "Ability Duration": {
+        "link": "Ability Duration",
+        "icon": ["AbilityDurationBuff.png", "AbilityDurationBuffBlack.png"]
+      },
+      "Ability Strength": {
+        "link": "Ability Strength",
+        "icon": ["AbilityStrengthBuff.png", "AbilityStrengthBuffBlack.png"]
+      },
+      "Fire Rate": {
+        "link": "Fire Rate",
+        "icon": ["FireRateBuff.png", "FireRateBuffBlack.png"]
+      },
+      "Resource Blessing": {
+        "link": "True Master's Font",
+        "icon": [
+          "MasteryRankBlessingResourceBooster.png",
+          "MasteryRankBlessingResourceBoosterBlack.png"
+        ]
+      },
+      "Combo Duration": {
+        "link": "Melee#Combo Counter",
+        "icon": ["ComboDurationBuff.png", "ComboDurationBuffBlack.png"]
+      },
+      "Credit Blessing": {
+        "link": "True Master's Font",
+        "icon": [
+          "MasteryRankBlessingCreditBooster.png",
+          "MasteryRankBlessingCreditBoosterBlack.png"
+        ]
+      },
+      "Ability Range": {
+        "link": "Ability Range",
+        "icon": ["AbilityRangeBuff.png", "AbilityRangeBuffBlack.png"]
+      },
+      "Bullet Jump": {
+        "link": "Maneuvers",
+        "icon": ["BulletJumpBuff.png", "BulletJumpBuffBlack.png"]
+      },
+      "Shield Blessing": {
+        "link": "True Master's Font",
+        "icon": [
+          "MasteryRankBlessingBuffShield.png",
+          "MasteryRankBlessingBuffShieldBlack.png"
+        ]
+      },
+      "Affinity Blessing": {
+        "link": "True Master's Font",
+        "icon": [
+          "MasteryRankBlessingAffinityBooster.png",
+          "MasteryRankBlessingAffinityBoosterBlack.png"
+        ]
+      },
+      "Critical Chance": {
+        "link": "Critical Hit#Critical Hit Chance",
+        "icon": ["CritChanceBuff.png", "CritChanceBuffBlack.png"]
+      },
+      "Damage": {
+        "link": "Damage",
+        "icon": ["DamageBuff.png", "DamageBuffBlack.png"]
+      },
+      "Critical Damage": {
+        "link": "Critical Hit",
+        "icon": ["CriticalDamageBuff.png", "CriticalDamageBuffBlack.png"]
+      },
+      "Health Regen": {
+        "link": "Health",
+        "icon": ["HealthRegenBuff.png", "HealthRegenBuffBlack.png"]
+      },
+      "Combo Status Chance": {
+        "link": "Melee#Combo Counter",
+        "icon": ["ComboStatusChanceBuff.png", "ComboStatusChanceBuffBlack.png"]
+      }
+    },
+    "Clan": {
+      "Moon": { "link": "Clan#Clan Tier", "icon": "LeaderBadgeMoonHolo.png" },
+      "Mountain": {
+        "link": "Clan#Clan Tier",
+        "icon": "LeaderBadgeMountainHolo.png"
+      },
+      "Storm": { "link": "Clan#Clan Tier", "icon": "LeaderBadgeStormHolo.png" },
+      "Shadow": {
+        "link": "Clan#Clan Tier",
+        "icon": "LeaderBadgeShadowHolo.png"
+      },
+      "Ghost": { "link": "Clan#Clan Tier", "icon": "LeaderBadgeGhostHolo.png" }
+    },
+    "Heads-Up Display": {
+      "PaintedEnemies": {
+        "link": "Marked Enemies",
+        "icon": ["MiniMapEnemyPainted.png"]
+      },
+      "HackC": { "link": "Hack C", "icon": ["MiniMapHackC.png"] },
+      "DestroyB": { "link": "Destroy B", "icon": ["MiniMapDestroyB.png"] },
+      "FoundryDone": {
+        "link": "Build Complete",
+        "icon": ["BuildComplete.png", "BuildComplete_w.png"]
+      },
+      "Waypoint": { "link": "Waypoint", "icon": ["MiniMapGeneric.png"] },
+      "Module": { "link": "Mod", "icon": ["MiniMapMod.png"] },
+      "DestroyA": { "link": "Destroy A", "icon": ["MiniMapDestroyA.png"] },
+      "Ally": { "link": "Ally", "icon": ["MiniMapFriend.png"] },
+      "Prisoner": { "link": "Hostage", "icon": ["MiniMapHostage.png"] },
+      "HackB": { "link": "Hack B", "icon": ["MiniMapHackB.png"] },
+      "Capture": { "link": "Attack", "icon": ["MiniMapAttack.png"] },
+      "Bleedout": { "link": "Bleedout", "icon": ["MiniMapFriendPreDeath.png"] },
+      "Market": {
+        "link": "Market",
+        "icon": ["MarketIcon.png", "Market_w.png"]
+      },
+      "Objective": { "link": "Objective", "icon": ["MiniMapObjective.png"] },
+      "DoubleAffinityEvent": {
+        "link": "Double Affinity Event",
+        "icon": ["DoubleAffinityEventIcon.png", "DoubleAffinityEventIcon_w.png"]
+      },
+      "Rescue": { "link": "Hostage", "icon": ["MiniMapHostage.png"] },
+      "DoubleCreditEvent": {
+        "link": "Double Credit Event",
+        "icon": ["DoubleCreditEvent.png", "DoubleCreditEvent_w.png"]
+      },
+      "Mod": { "link": "Mod", "icon": ["MiniMapMod.png"] },
+      "Discount": {
+        "link": "Platinum-Purchase Discount",
+        "icon": ["MarketIcon.png", "Market_w.png"]
+      },
+      "BuildComplete": {
+        "link": "Build Complete",
+        "icon": ["BuildComplete.png", "BuildComplete_w.png"]
+      },
+      "FoundryComplete": {
+        "link": "Build Complete",
+        "icon": ["BuildComplete.png", "BuildComplete_w.png"]
+      },
+      "Life Support": {
+        "link": "Life Support",
+        "icon": ["MiniMapO2Post.png", "MiniMapO2PostWhite.png"]
+      },
+      "Downed": {
+        "link": "Bleeding Out",
+        "icon": ["MiniMapFriendPreDeath.png"]
+      },
+      "DroneKilled": {
+        "link": "Drone Destroyed",
+        "icon": ["DroneDestroyed.png", "DroneDestroyed_w.png"]
+      },
+      "DroneFinished": {
+        "link": "Drone Complete",
+        "icon": ["DroneComplete.png", "DroneComplete_w.png"]
+      },
+      "NPC": { "link": "NPC", "icon": ["MiniMapFriendAi.png"] },
+      "DestroyC": { "link": "Destroy C", "icon": ["MiniMapDestroyC.png"] },
+      "Enemies": { "link": "Enemies", "icon": ["MiniMapEnemy.png"] },
+      "DestroyD": { "link": "Destroy D", "icon": ["MiniMapDestroyD.png"] },
+      "Coupon": {
+        "link": "Platinum-Purchase Discount",
+        "icon": ["MarketIcon.png", "Market_w.png"]
+      },
+      "Bleeding": {
+        "link": "Bleeding Out",
+        "icon": ["MiniMapFriendPreDeath.png"]
+      },
+      "FriendInvite": {
+        "link": "Pending Friend Request",
+        "icon": [
+          "FriendRequestPendingIcon.png",
+          "FriendRequestPendingIcon_w.png"
+        ]
+      },
+      "Archwing": { "link": "Ally (Archwing)", "icon": ["FriendArchwing.png"] },
+      "Inbox": {
+        "link": "Unread Message",
+        "icon": ["MailIcon.png", "Mail_w.png"]
+      },
+      "BuildDone": {
+        "link": "Build Complete",
+        "icon": ["BuildComplete.png", "BuildComplete_w.png"]
+      },
+      "MarkedEnemies": {
+        "link": "Marked Enemies",
+        "icon": ["MiniMapEnemyPainted.png"]
+      },
+      "PaintedEnemy": {
+        "link": "Marked Enemy",
+        "icon": ["MiniMapEnemyPainted.png"]
+      },
+      "DroneDone": {
+        "link": "Drone Complete",
+        "icon": ["DroneComplete.png", "DroneComplete_w.png"]
+      },
+      "FriendRequest": {
+        "link": "Pending Friend Request",
+        "icon": [
+          "FriendRequestPendingIcon.png",
+          "FriendRequestPendingIcon_w.png"
+        ]
+      },
+      "LeaderWaypoint": {
+        "link": "Leader Waypoint",
+        "icon": ["LeaderMarker1.png"]
+      },
+      "HackA": { "link": "Hack A", "icon": ["MiniMapHackA.png"] },
+      "Dying": {
+        "link": "Bleeding Out",
+        "icon": ["MiniMapFriendPreDeath.png"]
+      },
+      "DroneComplete": {
+        "link": "Drone Complete",
+        "icon": ["DroneComplete.png", "DroneComplete_w.png"]
+      },
+      "Pickup": { "link": "Pickup", "icon": ["MiniMapLoot.png"] },
+      "Goal": { "link": "Objective", "icon": ["MiniMapObjective.png"] },
+      "Tenno": { "link": "Tenno", "icon": ["MiniMapFriend.png"] },
+      "DoubleResourcesEvent": {
+        "link": "Double Resources Event",
+        "icon": ["DoubleResourcesEvent.png", "DoubleResourcesEvent_w.png"]
+      },
+      "Hostage": { "link": "Hostage", "icon": ["MiniMapHostage.png"] },
+      "MarkedMod": { "link": "Marked Mod", "icon": ["MiniMapModPainted.png"] },
+      "Extraction": { "link": "Extraction", "icon": ["MiniMapExtraction.png"] },
+      "Message": {
+        "link": "Unread Message",
+        "icon": ["MailIcon.png", "Mail_w.png"]
+      },
+      "DroneFull": {
+        "link": "Drone Complete",
+        "icon": ["DroneComplete.png", "DroneComplete_w.png"]
+      },
+      "Kubrow": { "link": "Kubrow", "icon": ["MiniMapKubrow.png"] },
+      "DroneDead": {
+        "link": "Drone Destroyed",
+        "icon": ["DroneDestroyed.png", "DroneDestroyed_w.png"]
+      },
+      "Mail": {
+        "link": "Unread Message",
+        "icon": ["MailIcon.png", "Mail_w.png"]
+      },
+      "DroneDestroyed": {
+        "link": "Drone Destroyed",
+        "icon": ["DroneDestroyed.png", "DroneDestroyed_w.png"]
+      },
+      "Extract": { "link": "Extraction", "icon": ["MiniMapExtraction.png"] },
+      "HackD": { "link": "Hack D", "icon": ["MiniMapHackD.png"] },
+      "Resource": { "link": "Resource", "icon": ["MiniMapLoot.png"] },
+      "Loot": { "link": "Loot", "icon": ["MiniMapLoot.png"] },
+      "EnemyWaypoint": {
+        "link": "Enemy Waypoint",
+        "icon": ["MiniMapEnemyPainted.png"]
+      },
+      "MarkedEnemy": {
+        "link": "Marked Enemy",
+        "icon": ["MiniMapEnemyPainted.png"]
+      },
+      "Enemy": { "link": "Enemy", "icon": ["MiniMapEnemy.png"] },
+      "Attack": { "link": "Attack", "icon": ["MiniMapAttack.png"] },
+      "Leader": { "link": "Leader Waypoint", "icon": ["LeaderMarker1.png"] },
+      "Escort": { "link": "Escort", "icon": ["MiniMapEscort.png"] },
+      "ModWaypoint": {
+        "link": "Mod Waypoint",
+        "icon": ["MiniMapModPainted.png"]
+      }
+    },
+    "House": {
+      "Vidar": { "link": "House Vidar", "icon": "HouseVidar.png" },
+      "Sigma": { "link": "House Sigma", "icon": "HouseSigma.png" },
+      "Lavan": { "link": "House Lavan", "icon": "HouseLavan.png" },
+      "Zetki": { "link": "House Zetki", "icon": "HouseZetki.png" }
+    }
+  },
+  "meta": {
+    "nRefresh": 2,
+    "lastRefresh": 1642423954660,
+    "hash": "Vj8XdB4JtUAZrVlDfnToLvUCqCI9C4oJ9Su/hmBUefE=",
+    "license": "CC BY-SA"
+  }
+}
